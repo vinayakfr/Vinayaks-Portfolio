@@ -1,9 +1,18 @@
-export default function Index(){
+import { Outlet } from "@remix-run/react";
+import Background from "./components/background";
+
+export default function Home() {
   return (
-    <div>
-      <h1>
-        Hello Index Page
-      </h1>
+    <div className="text-white absolute w-screen h-screen bg-neutral-900" style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+      <div className="grid place-content-center place-items-center py-96">
+        <Background/>
+        <div className="absolute select-none">
+          <h1 className=" text-8xl text-center">Vinayak Srivastava</h1>
+          <p className="text-4xl text-center">
+          <a href="./developer" className="hover:text-black transition duration-700">Developer</a> | <a href="/music" className="hover:text-black transition duration-700">Musician</a> |  <a href="./student" className="hover:text-black transition duration-700">Student</a>
+          </p>
+        </div>
+      </div>
     </div>
   )
 }
