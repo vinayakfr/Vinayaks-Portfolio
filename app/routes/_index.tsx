@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
-    <div className="text-white absolute w-full h-full bg-neutral-900" style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+    <div className="text-white absolute w-full h-full" style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <Navbar/>
       <div className="grid place-content-center place-items-center py-96">
         <Background/>
