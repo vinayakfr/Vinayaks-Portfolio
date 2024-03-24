@@ -1,4 +1,5 @@
 import Background from "./components/background";
+import Devcard from "./components/devcard";
 import Navbar from "./components/navbar";
 
 
@@ -50,6 +51,7 @@ export default function Home() {
           <div className="h-20 w-20 rounded-full bg-gradient-to-r from-cyan-700 to-transparent"></div>
         </div>
       </div>
+      <div className="flex place-content-center"><Devcard/></div>
     </div>
   )
 }
