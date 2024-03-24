@@ -14,7 +14,7 @@
 export default function Vinyl() {
     return (
         <div>
-            <div className="h-[1050px] w-[1050px] bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 rounded-full shadow-xl opacity-100">
+            <div className="h-[1050px] w-[1050px] bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 rounded-full shadow-xl opacity-100 animate-spin">
                 <div className="h-[900px] w-[900px] bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 rounded-full translate-x-[75px] translate-y-[80px] ">
                     <div className="w-[750px] h-[750px] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 translate-x-[75px] translate-y-[80px]">
                         <div className="w-[500px] h-[500px] rounded-full bg-gradient-to-br from-rose-800 via-rose-600 to-rose-800 translate-x-[125px] translate-y-[120px]"></div>
