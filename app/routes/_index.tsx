@@ -1,6 +1,7 @@
 import Background from "./components/background";
 import Navbar from "./components/navbar";
 
+
 export default function Home() {
   return (
     <div className="text-white absolute w-full h-full" style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
@@ -40,8 +41,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>
-        <h1>Skills</h1>
+      <div className="h-40 w-96 bg-zinc-800 rounded-2xl mx-24">
+        <h1 className="flex justify-center py-12 text-5xl ">Skills</h1>
+        <div className="h-24 w-24 rounded-full bg-gradient-to-tl from-orange-500 to-transparent opacity-70 -translate-y-52 -translate-x-12"></div>
+        <div className="flex gap-4 opacity-80 -translate-y-32 translate-x-40">
+          <div className="h-20 w-20 rounded-full bg-gradient-to-r from-cyan-400 to-cyan-600"></div>
+          <div className="h-20 w-20 rounded-full bg-gradient-to-r from-cyan-600 to-cyan-700"></div>
+          <div className="h-20 w-20 rounded-full bg-gradient-to-r from-cyan-700 to-transparent"></div>
+        </div>
       </div>
     </div>
   )
