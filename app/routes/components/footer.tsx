@@ -1,14 +1,11 @@
 export default function Footer() {
     return (
-        <div className="w-full h-56 bg-zinc-800 text-wh">
+        <div className="w-full h-56 bg-zinc-800 text-white">
             <div className="flex justify-between mx-10 py-7">
                 <div className="text-2xl leading-9">
                     SRM Institute of Science and Technology, <br/>
                     Kattankulathur, Chennai <br/>
                     603203
-                </div>
-                <div>
-                    <h1 className="text-5xl py-6">Vinayak Srivastava</h1>
                 </div>
                 <div className="flex flex-col">
                     <h1 className="bold text-2xl">Socials</h1>
