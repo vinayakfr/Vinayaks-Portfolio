@@ -1,5 +1,6 @@
 import Background from "./components/background";
 import Devcard from "./components/devcard";
+import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 
 
@@ -52,6 +53,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex place-content-center"><Devcard/></div>
+      <div><Footer/></div>
     </div>
   )
 }
