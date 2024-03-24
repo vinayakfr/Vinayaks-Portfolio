@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <div className="w-full h-56 bg-zinc-800 text-white">
+        <div className="w-full h-56 bg-zinc-800 text-wh">
             <div className="flex justify-between mx-10 py-7">
                 <div className="text-2xl leading-9">
                     SRM Institute of Science and Technology, <br/>

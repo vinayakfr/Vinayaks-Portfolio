@@ -1,8 +1,9 @@
 import Background from "./components/background";
 import Devcard from "./components/devcard";
+import Experience from "./components/experience";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
-
+import Skill from "./components/skills";
 
 export default function Home() {
   return (
@@ -43,16 +44,15 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="h-40 w-96 bg-zinc-800 rounded-2xl mx-24">
-        <h1 className="flex justify-center py-12 text-5xl ">Skills</h1>
-        <div className="h-24 w-24 rounded-full bg-gradient-to-tl from-orange-500 to-transparent opacity-70 -translate-y-52 -translate-x-12"></div>
-        <div className="flex gap-4 opacity-80 -translate-y-32 translate-x-40">
-          <div className="h-20 w-20 rounded-full bg-gradient-to-r from-cyan-400 to-cyan-600"></div>
-          <div className="h-20 w-20 rounded-full bg-gradient-to-r from-cyan-600 to-cyan-700"></div>
-          <div className="h-20 w-20 rounded-full bg-gradient-to-r from-cyan-700 to-transparent"></div>
-        </div>
+      <div className="my-16 mx-16">
+        <h1 className="text-center text-4xl leading-snug my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam maxime rem nam optio accusantium perspiciatis doloremque maiores facilis? Atque pariatur nulla minus ipsam quibusdam aperiam consequuntur iure dolorum, qui iusto eveniet tenetur? Reiciendis, harum? Dolorum consectetur modi ipsam saepe veniam debitis dicta sapiente placeat id, soluta in. Omnis, maxime?</h1>
+        <h1 className="text-center text-4xl leading-snug my-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam maxime rem nam optio accusantium perspiciatis doloremque maiores facilis? Atque pariatur nulla minus ipsam quibusdam aperiam consequuntur iure dolorum, qui iusto eveniet tenetur? Reiciendis, harum? Dolorum consectetur modi ipsam saepe veniam debitis dicta sapiente placeat id, soluta in. Omnis, maxime?</h1>
       </div>
-      <div className="flex place-content-center"><Devcard/></div>
+      <div className="py-10 mx-6">
+        <Skill/>
+        <Experience/>
+      </div>
+      <div className="flex place-content-center -translate-y-24"><Devcard/></div>
       <div><Footer/></div>
     </div>
   )
