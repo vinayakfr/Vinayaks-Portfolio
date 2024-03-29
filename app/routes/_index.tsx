@@ -1,9 +1,8 @@
+import { SiHtml5, SiJavascript, SiPython, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
 import Background from "./components/background";
 import Devcard from "./components/devcard";
-import Experience from "./components/experience";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
-import Skill from "./components/skills";
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
       <div className="grid place-content-center place-items-center py-96">
         <Background/>
         <div className="absolute select-none">
-          <h1 className=" text-8xl text-center">Vinayak Srivastava</h1>
+          <h1 className="text-8xl text-center">Vinayak Srivastava</h1>
           <p className="text-4xl text-center">
           <a href="./developer" className="hover:text-black transition duration-700">Developer</a> | <a href="/music" className="hover:text-black transition duration-700">Musician</a> |  <a href="./student" className="hover:text-black transition duration-700">Student</a>
           </p>
@@ -44,15 +43,32 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div>
+        <h1 className="text-center text-7xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, similique!</h1>
+      </div>
       <div className="my-16 mx-16">
         <h1 className="text-center text-4xl leading-snug my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam maxime rem nam optio accusantium perspiciatis doloremque maiores facilis? Atque pariatur nulla minus ipsam quibusdam aperiam consequuntur iure dolorum, qui iusto eveniet tenetur? Reiciendis, harum? Dolorum consectetur modi ipsam saepe veniam debitis dicta sapiente placeat id, soluta in. Omnis, maxime?</h1>
         <h1 className="text-center text-4xl leading-snug my-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam maxime rem nam optio accusantium perspiciatis doloremque maiores facilis? Atque pariatur nulla minus ipsam quibusdam aperiam consequuntur iure dolorum, qui iusto eveniet tenetur? Reiciendis, harum? Dolorum consectetur modi ipsam saepe veniam debitis dicta sapiente placeat id, soluta in. Omnis, maxime?</h1>
       </div>
-      <div className="py-10 mx-6">
-        <Skill/>
-        <Experience/>
+      <div className="flex flex-col place-items-center">
+        <h1 className="h-[200px] w-[200px] hover:bg-cyan-950 transform duration-700 rounded-full py-14 text-center text-7xl underline">Skills</h1>
+        <div className=" h-[120px] w-[120px] hover:bg-cyan-950 transform duration-700 translate-x-[100px] -translate-y-[250px] rounded-full"></div>
+        <div className=" h-[120px] w-[120px] hover:bg-cyan-950 transform duration-700 -translate-x-[90px] -translate-y-[185px] rounded-full"></div>
+          <div className="flex gap-x-28 -translate-y-36">
+              <SiJavascript size={90} color="zinc"/>
+              <SiTypescript size={90} color="zinc"/>
+              <SiPython size={90} color="zinc"/>
+              <SiHtml5 size={90} color="zinc"/>
+              <SiTailwindcss size={90} color="zinc"/>
+              <SiReact size={90} color="zinc"/>
+          </div>
       </div>
-      <div className="flex place-content-center -translate-y-24"><Devcard/></div>
+      <div className="flex flex-col place-items-center">
+        <h1 className="h-[200px] w-[200px] bg-zinc-800 hover:bg-orange-800 transform duration-700 rounded-full py-14 text-7xl underline flex place-content-center">Experience</h1>
+        <div className=" h-[120px] w-[120px] bg-white hover:bg-orange-500 transform duration-700 -translate-x-[100px] -translate-y-[250px] rounded-full"></div>
+        <div className=" h-[120px] w-[120px] bg-white hover:bg-orange-500 transform duration-700 translate-x-[90px] -translate-y-[185px] rounded-full"></div>
+      </div>
+      {/* <div className="flex place-content-center -translate-y-24"><Devcard/></div> */}
       <div><Footer/></div>
     </div>
   )
