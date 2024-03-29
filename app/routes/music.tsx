@@ -1,6 +1,7 @@
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
-import MusicCard from "./components/songacard";
+import Poster from "./components/posters";
+import MusicCard from "./components/songcard";
 import Vinyl from "./components/vinyl";
 
 export default function Music() {
@@ -20,9 +21,6 @@ export default function Music() {
             <div className="">
                 <div className="flex px-16">
                     <MusicCard image={"/tangerine.png"} link={""} color={"White"}/>
-                    <MusicCard image={"/artemis.png"} link={""} color={"White"}/>
-                    <MusicCard image={"/artemis.png"} link={""} color={"White"}/>
-                    <MusicCard image={"/artemis.png"} link={""} color={"White"}/>
                 </div>
             </div>
             
