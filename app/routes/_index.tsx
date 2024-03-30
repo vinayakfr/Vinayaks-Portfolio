@@ -48,10 +48,10 @@ export default function Home() {
       </div>
       <div className="my-16 mx-16">
         <h1 className="text-center text-4xl leading-snug my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam maxime rem nam optio accusantium perspiciatis doloremque maiores facilis? Atque pariatur nulla minus ipsam quibusdam aperiam consequuntur iure dolorum, qui iusto eveniet tenetur? Reiciendis, harum? Dolorum consectetur modi ipsam saepe veniam debitis dicta sapiente placeat id, soluta in. Omnis, maxime?</h1>
-        <h1 className="text-center text-4xl leading-snug my-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam maxime rem nam optio accusantium perspiciatis doloremque maiores facilis? Atque pariatur nulla minus ipsam quibusdam aperiam consequuntur iure dolorum, qui iusto eveniet tenetur? Reiciendis, harum? Dolorum consectetur modi ipsam saepe veniam debitis dicta sapiente placeat id, soluta in. Omnis, maxime?</h1>
+        <h1 className="text-center text-4xl leading-snug my-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti error laudantium dolorum. Autem neque porro error praesentium, ad fuga. Obcaecati ducimus doloremque voluptas ea nemo saepe, mollitia in delectus fugit minus, libero blanditiis minima atque nulla consequuntur. Dolor sequi accusamus sunt beatae nobis placeat reprehenderit rerum quis vitae nihil. Corrupti.</h1>
       </div>
       <div className="flex flex-col place-items-center">
-        <h1 className="h-[200px] w-[200px] hover:bg-cyan-950 transform duration-700 rounded-full py-14 text-center text-7xl underline">Skills</h1>
+        <h1 className="h-[200px] w-[200px] hover:bg-cyan-950 transform duration-700 rounded-full py-14 text-center text-7xl ">Skills</h1>
         <div className=" h-[120px] w-[120px] hover:bg-cyan-950 transform duration-700 translate-x-[100px] -translate-y-[250px] rounded-full"></div>
         <div className=" h-[120px] w-[120px] hover:bg-cyan-950 transform duration-700 -translate-x-[90px] -translate-y-[185px] rounded-full"></div>
           <div className="flex gap-x-28 -translate-y-36">
@@ -63,12 +63,12 @@ export default function Home() {
               <SiReact size={90} color="zinc"/>
           </div>
       </div>
-      <div className="flex flex-col place-items-center">
-        <h1 className="h-[200px] w-[200px] bg-zinc-800 hover:bg-orange-800 transform duration-700 rounded-full py-14 text-7xl underline flex place-content-center">Experience</h1>
-        <div className=" h-[120px] w-[120px] bg-white hover:bg-orange-500 transform duration-700 -translate-x-[100px] -translate-y-[250px] rounded-full"></div>
-        <div className=" h-[120px] w-[120px] bg-white hover:bg-orange-500 transform duration-700 translate-x-[90px] -translate-y-[185px] rounded-full"></div>
+      <div className="flex flex-col place-items-center mb-16">
+        <h1 className="h-[200px] w-[200px] hover:bg-orange-800 transform duration-700 rounded-full py-14 text-7xl flex place-content-center">Experience</h1>
+        <div className=" h-[120px] w-[120px] hover:bg-orange-500 transform duration-700 -translate-x-[100px] -translate-y-[250px] rounded-full"></div>
+        <div className=" h-[120px] w-[120px] hover:bg-orange-500 transform duration-700 translate-x-[90px] -translate-y-[185px] rounded-full"></div>
       </div>
-      {/* <div className="flex place-content-center -translate-y-24"><Devcard/></div> */}
+      <div className="flex place-content-center -translate-y-24"><Devcard/></div>
       <div><Footer/></div>
     </div>
   )
