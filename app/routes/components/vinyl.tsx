@@ -13,7 +13,20 @@
 
 export default function Vinyl() {
     return (
-        <div>
+        <div className="hidden md:block">
+            <div className="h-[37.5rem] w-[37.5rem] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 flex place-content-center place-items-center animate-spin">
+                <div className="h-[30rem] w-[30rem] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 flex place-content-center place-items-center">
+                    <div className="h-[22.5rem] w-[22.5rem] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 flex place-content-center place-items-center">
+                        <div className="h-[12.5rem] w-[12.5rem] rounded-full bg-gradient-to-br from-rose-800 via-rose-600 to-rose-800 flex place-content-center place-items-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+<div>
             <div className="h-[1050px] w-[1050px] bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 rounded-full shadow-xl opacity-100 animate-spin">
                 <div className="h-[900px] w-[900px] bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 rounded-full translate-x-[75px] translate-y-[80px] ">
                     <div className="w-[750px] h-[750px] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 translate-x-[75px] translate-y-[80px]">
@@ -22,8 +35,8 @@ export default function Vinyl() {
                 </div>
             </div>
         </div>
-    )
-}
+
+
 
 // export default function Vinyl() {
 //     return (
