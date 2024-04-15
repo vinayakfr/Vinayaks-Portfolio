@@ -1,23 +1,10 @@
-// export default function Vinyl() {
-//     return (
-//         <div>
-//             <div className="h-[1050px] w-[1050px] bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 rounded-full shadow-2xl opacity-100 o">
-//                 <div className="h-[400px] w-[400px] bg-rose-600 rounded-full translate-x-80 translate-y-80 outline outline-offset-[90px] outline-gray-900">
-//                     <div className="w-64 h-64 rounded-full translate-x-[65px] translate-y-[67px] outline outline-offset-[250px] outline-gray-800"></div>
-//                     <div className="w-28 h-28 rounded-full translate-x-[143px] -translate-y-[110px] outline outline-offset-[400px] outline-gray-700"></div>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
 export default function Vinyl() {
     return (
-        <div className="hidden md:block">
-            <div className="h-[37.5rem] w-[37.5rem] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 flex place-content-center place-items-center animate-spin">
-                <div className="h-[30rem] w-[30rem] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 flex place-content-center place-items-center">
-                    <div className="h-[22.5rem] w-[22.5rem] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 flex place-content-center place-items-center">
-                        <div className="h-[12.5rem] w-[12.5rem] rounded-full bg-gradient-to-br from-rose-800 via-rose-600 to-rose-800 flex place-content-center place-items-center">
+        <div className="hidden md:block relative opacity-80">
+            <div className="h-[37.5rem] w-[37.5rem] xl:h-[60rem] xl:w-[60rem] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 flex place-content-center place-items-center animate-spin">
+                <div className="h-[30rem] w-[30rem] xl:h-[50rem] xl:w-[50rem] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 flex place-content-center place-items-center">
+                    <div className="h-[22.5rem] w-[22.5rem] xl:h-[40rem] xl:w-[40rem] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 flex place-content-center place-items-center">
+                        <div className="h-[12.5rem] w-[12.5rem] xl:h-[25rem] xl:w-[25rem] rounded-full bg-gradient-to-br from-rose-800 via-rose-600 to-rose-800 flex place-content-center place-items-center">
                         </div>
                     </div>
                 </div>
@@ -25,26 +12,3 @@ export default function Vinyl() {
         </div>
     )
 }
-
-<div>
-            <div className="h-[1050px] w-[1050px] bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 rounded-full shadow-xl opacity-100 animate-spin">
-                <div className="h-[900px] w-[900px] bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 rounded-full translate-x-[75px] translate-y-[80px] ">
-                    <div className="w-[750px] h-[750px] rounded-full bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 translate-x-[75px] translate-y-[80px]">
-                        <div className="w-[500px] h-[500px] rounded-full bg-gradient-to-br from-rose-800 via-rose-600 to-rose-800 translate-x-[125px] translate-y-[120px]"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-// export default function Vinyl() {
-//     return (
-//         <div>
-//             <div className="h-[1050px] w-[1050px] bg-gradient-to-br from-zinc-950 via-zinc-800 to-zinc-950 rounded-full shadow-2xl opacity-100">
-//                 <div className="h-[400px] w-[400px] bg-rose-600 rounded-full translate-x-80 translate-y-80 outline outline-offset-[50px] outline-gray-700">
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
