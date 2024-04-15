@@ -18,7 +18,7 @@ export default function Home() {
       style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}
     >
       <Navbar />
-      <div className="flex place-content-center place-items-center pt-28 md:pt-40 lg:pt-96 2xl:pt-[35rem]">
+      <div className="flex place-content-center place-items-center pt-28 md:pt-40 lg:pt-[22.5rem] 2xl:pt-[35rem]">
         <div className="flex place-content-center place-items-center">
           <Background />
         </div>
