@@ -2,48 +2,33 @@ import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 
 export default function Contact() {
-    return (
-        <div className="text-white">
-            <Navbar/>
-            <h1 className="text-6xl text-center">Contact</h1>
-            <p className="text-4xl text-center py-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. In quos est beatae architecto distinctio delectus iure excepturi doloremque? Nemo, amet!</p>
-            {/* <div className="flex justify-between mx-48 py-16">
-                <div>
-
-                    <div className="h-56 w-[600px] rounded-2xl bg-zinc-800 flex justify-between py-5"></div>
-                    <div className="h-[357px] w-[600px] rounded-2xl bg-zinc-800 flex justify-between my-5">
-                        <div className="flex flex-col gap-8 my-10 mx-6">
-                            <input type="text" className="h-[110px] w-[550px] rounded-2xl bg-black ring ring-danger px-5 text-xl" placeholder="Full Name"/>
-                            <input type="text" className="h-[110px] w-[550px] rounded-2xl bg-black ring ring-danger px-5 text-xl" placeholder="Email Address"/>
-                            <button className="h-14 w-24 rounded-2xl bg-white text-rose-500 hover:bg-rose-500 hover:text-white transform duration-500 mx-56 border-2 border-rose-500">Send</button>
-                        </div> 
-                    </div>
-
-                </div>
-
-                <div className="h-[600px] w-[450px] bg-zinc-800 rounded-2xl"></div>
-            </div> */}
-            <div className="flex flex-col place-content-center place-items-center gap-y-10 my-16">
-                <div className="flex gap-10">
-                    <div className="w-[550px] h-[240px] bg-zinc-800 rounded-3xl"></div>
-                    <div className="w-[550px] h-[240px] bg-zinc-800 rounded-3xl"></div>
-                </div>
-                <div className="w-[1140px] h-[600px] bg-zinc-800 rounded-3xl">
-                    <div className="grid grid-cols-2 grid-rows-2 place-content-center place-items-center gap-x-5 gap-y-10 my-5">
-                        <input type="text" className="h-[80px] w-[500px] rounded-2xl bg-black ring ring-danger px-5 text-xl" placeholder="First Name"/>
-                        <input type="text" className="h-[80px] w-[500px] rounded-2xl bg-black ring ring-danger px-5 text-xl" placeholder="Last Name"/>
-                        <input type="text" className="h-[80px] w-[500px] rounded-2xl bg-black ring ring-danger px-5 text-xl" placeholder="Email Address"/>
-                        <input type="text" className="h-[80px] w-[500px] rounded-2xl bg-black ring ring-danger px-5 text-xl" placeholder="Designation"/>
-                    </div>
-                    <div className="flex place-content-center place-items-center">
-                        <input type="text" className="h-[220px] w-[1075px] rounded-2xl bg-black ring ring-danger px-5 pb-36 mt-4 text-xl" placeholder="Message" />
-                    </div>
-                    <div className="flex place-content-center place-items-center py-8">
-                        <button className="h-16 w-36 rounded-3xl bg-white text-rose-500 hover:bg-rose-500 hover:text-white transform duration-500 border-2 border-rose-500">Send</button>
-                    </div>
-                </div>
-            </div>
-            <Footer/>
+  return (
+    <div>
+      <Navbar />
+      <div className="text-white flex flex-col place-content-center place-items-center py-5">
+        <h1 className="text-5x xl:text-7xl font-bold">Contact</h1>
+        <p className="text-2xl xl:text-4xl text-center py-9 px-4 xl:px-5 font-light">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In quos est
+          beatae architecto distinctio delectus iure excepturi doloremque? Nemo,
+          amet!
+        </p>
+        <div className="hidden xl:block py-10 w-[80%]">
+          <div className="flex gap-10">
+            <div className="h-[15rem] w-full bg-zinc-800 rounded-xl"></div>
+            <div className="h-[15rem] w-full bg-zinc-800 rounded-xl"></div>
+          </div>
         </div>
-    )
+        <div className="bg-zinc-800 w-[80%] h-96 xl:h-[30rem] rounded-xl py-6 md:py-12 flex flex-col place-content-between place-items-center gap-2 px-2 md:px-6">
+          <div className="w-full flex flex-col md:flex-row gap-6">
+             <input placeholder="Full Name" className="xl:text-xl h-12 w-full xl:h-20 rounded-xl bg-zinc-900 border-2 border-rose-500 hover:text-rose-500 px-2" required/>
+            <input placeholder="Phone Number" className="xl:text-xl h-12 w-full xl:h-20 rounded-xl bg-zinc-900 border-2 border-rose-500 hover:text-rose-500 px-2" required/>
+          </div>
+            <input placeholder="Email" className="xl:text-xl h-12 w-full xl:h-20 rounded-xl bg-zinc-900 border-2 border-rose-500 hover:text-rose-500 px-2" required/>
+            <input placeholder="Message" className="xl:text-xl h-12 w-full xl:h-20 md:h-20 bg-zinc-900 rounded-xl border-2 border-rose-500 hover:text-rose-500 px-2" required/>
+            <button className="xl:text-2xl font-semibold h-10 w-24 xl:h-16 xl:w-56 rounded-xl border-2 border-rose-500 bg-zinc-900 text-rose-500 hover:bg-rose-500 hover:text-white transform duration-300">Send</button>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
 }

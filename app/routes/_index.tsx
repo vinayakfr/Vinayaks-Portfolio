@@ -21,7 +21,7 @@ export default function Home() {
       <div className="pt-40 md:pt-64 lg:pt-[27.5rem] 2xl:pt-[45rem] flex flex-col place-content-center place-items-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl text-center">About Me</h1>
         <div className="bg-zinc-800 h-max w-[90%] rounded-2xl mt-5 p-5">
-          <p className="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nostrum autem nam illo minus expedita fugit natus tempora nihil sapiente sequi, maiores voluptatibus facere! Sed repudiandae reiciendis similique esse sunt consequuntur atque nihil at aut sapiente doloribus, nostrum dolore dignissimos a quae maxime necessitatibus illo qui eveniet ad. Autem, blanditiis!</p>
+          <p className="text-center xl:text-2xl 2xl:text-4xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nostrum autem nam illo minus expedita fugit natus tempora nihil sapiente sequi, maiores voluptatibus facere! Sed repudiandae reiciendis similique esse sunt consequuntur atque nihil at aut sapiente doloribus, nostrum dolore dignissimos a quae maxime necessitatibus illo qui eveniet ad. Autem, blanditiis!</p>
         </div>
         <div className="flex flex-col md:flex-row place-content-center place-items-center justify-between gap-6 p-5">
           <div className="w-80 h-[30rem] bg-zinc-800 rounded-2xl">
