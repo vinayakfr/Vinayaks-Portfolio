@@ -11,6 +11,7 @@ import Love from "/Users/vinayak/Downloads/Why Don't We Love Back.mp3";
 import ChooLo from "/Users/vinayak/Downloads/The Local Train Aalas Ka Pedh Choo Lo.mp3";
 import Burning from "/Users/vinayak/Downloads/Slow Dancing in a Burning Room John Mayer.mp3";
 import Artic from "/Users/vinayak/Downloads/505.mp3";
+import Timeline from "./components/timeline";
 
 export default function Music() {
   return (
@@ -31,7 +32,7 @@ export default function Music() {
         <h1 className="text-7xl xl:text-8xl text-center font-bold bg-gradient-to-tr from-zinc-950 via-rose-600 to-zinc-950 text-transparent bg-clip-text md:hidden">
           Music
         </h1>
-        <p className="text-xl xl:text-4xl 2xl:text-6xl text-center text-white p-4 xl:p-10">
+        <p className="text-xl xl:text-4xl 2xl:text-7xl text-center text-white p-4 xl:p-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
           magni hic aliquid harum distinctio voluptates!
         </p>
@@ -111,7 +112,7 @@ export default function Music() {
           </div>
         </div>
       </div>
-      <h1 className="text-5xl xl:text-7xl 2xl:text-9xl text-center text-white font-semibold p-10">
+      <h1 className="text-5xl xl:text-7xl 2xl:text-9xl text-center text-white font-semibold p-10 2xl:p-14">
         You didn't forget your headphones, did you? 👀
       </h1>
       <div className="flex place-content-center place-items-center px-12">
@@ -218,13 +219,7 @@ export default function Music() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col">
-        <h1 className="text-5xl text-center font-bold bg-gradient-to-tr from-zinc-950 via-rose-600 to-zinc-950 text-transparent bg-clip-text p-9">
-          My Checkpoints
-        </h1>
-        <div></div>
-      </div>
-
+      <Timeline />
       <Footer />
     </div>
   );
