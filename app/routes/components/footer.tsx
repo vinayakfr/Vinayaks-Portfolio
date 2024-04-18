@@ -7,20 +7,20 @@ export default function Footer() {
             Vinayak Srivastava
           </h1>
         </div>
-        <div className="flex flex-col 2xl:gap-10 bg-gradient-to-br from-zinc-500 via-rose-800 to-zinc-500 text-transparent bg-clip-text">
-          <h1 className="font-bold text-center 2xl:text-start lg:text-2xl 2xl:text-5xl">
+        <div className="flex flex-col 2xl:gap-10">
+          <h1 className="font-bold text-center md:text-start text-xl lg:text-2xl 2xl:text-5xl bg-gradient-to-br from-zinc-500 via-rose-800 to-zinc-500 text-transparent bg-clip-text">
             Socials
           </h1>
-          <div className="flex gap-2 2xl:gap-6 text-sm lg:text-xl 2xl:text-3xl">
+          <div className="flex place-content-center place-items-center gap-2 2xl:gap-6 lg:text-xl 2xl:text-3xl">
             <a href="">GitHub</a>
             <a href="">LinkedIn</a>
             <a href="">Instagram</a>
             <a href="">Twitter</a>
           </div>
-          <h1 className="font-bold text-center 2xl:text-start lg:text-2xl 2xl:text-5xl">
+          <h1 className="font-bold text-center md:text-start text-xl lg:text-2xl 2xl:text-5xl bg-gradient-to-br from-zinc-500 via-rose-800 to-zinc-500 text-transparent bg-clip-text">
             Quick Links
           </h1>
-          <div className="flex gap-2 2xl:gap-6 text-sm lg:text-xl 2xl:text-3xl">
+          <div className="flex place-content-center place-items-center gap-2 2xl:gap-6 lg:text-xl 2xl:text-3xl">
             <a href="">Projects</a>
             <a href="">Music</a>
             <a href="">Playlist</a>
