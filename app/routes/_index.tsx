@@ -15,12 +15,10 @@ import Experience from "./components/experience";
 export default function Home() {
   return (
     <div
-      className="text-white absolute w-full h-full"
-      style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}
-    >
+      className="text-white absolute w-full h-full">
       <Navbar />
       <div className="flex place-content-center place-items-center pt-28 md:pt-40 lg:pt-[22.5rem] 2xl:pt-[35rem]">
-        <div className="flex place-content-center place-items-center animate-appearance-in">
+        <div className="flex place-content-center place-items-center ">
           <Background />
         </div>
         <div className="absolute flex flex-col gap-1 place-content-center place-items-center">
