@@ -19,8 +19,8 @@ const MusicCard = ({ image, link, title, music }: MusicCardProps) => {
             className="h-64 w-72 2xl:h-[30rem] 2xl:w-[30rem] rounded-2xl object-fit"
           />
         </a>
-        <div className="flex flex-col place-items-center place-content-center 2xl:grid 2xl:grid-rows-2">
-          <h1 className="text-white text-center overflow-x-auto mx-2 xl:h-6 2xl:h-max  2xl:text-6xl">
+        <div className="grid grid-rows-3">
+          <h1 className="text-white text-center overflow-auto mx-2 h-6 xl:h-6 2xl:h-max 2xl:text-6xl">
             {title}
           </h1>
           <audio
