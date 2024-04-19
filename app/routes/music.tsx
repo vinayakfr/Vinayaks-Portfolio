@@ -27,7 +27,6 @@ export default function Music() {
           </div>
         </div>
       </div>
-
       <div className="relative">
         <h1 className="text-7xl xl:text-8xl text-center font-bold bg-gradient-to-tr from-zinc-950 via-rose-600 to-zinc-950 text-transparent bg-clip-text md:hidden">
           Music
