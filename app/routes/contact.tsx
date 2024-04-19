@@ -1,6 +1,5 @@
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
-import  DatePicker  from "@nextui-org/react";
 
 export default function Contact() {
   return (

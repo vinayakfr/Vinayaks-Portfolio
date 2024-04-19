@@ -17,7 +17,7 @@ export default function Home() {
     <div className="text-white absolute w-full h-full">
       <Navbar />
       <div className="flex place-content-center place-items-center pt-28 md:pt-40 lg:pt-[22.5rem] 2xl:pt-[35rem]">
-        <div className="flex place-content-center place-items-center ">
+        <div className="flex place-content-center place-items-center">
           <Background />
         </div>
         <div className="absolute flex flex-col gap-1 place-content-center place-items-center">
