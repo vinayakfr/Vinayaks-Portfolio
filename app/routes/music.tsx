@@ -2,15 +2,6 @@ import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import MusicCard from "./components/songcard";
 import Vinyl from "./components/vinyl";
-
-import Artemas from "/Users/vinayak/Downloads/Can't Stop Loving You.mp3";
-import Yellow from "/Users/vinayak/Downloads/Yello.mp3";
-import Stargazing from "/Users/vinayak/Downloads/Stargazing.mp3";
-import Strawberries from "/Users/vinayak/Downloads/Strawberries and Cigarettes.mp3";
-import Love from "/Users/vinayak/Downloads/Why Don't We Love Back.mp3";
-import ChooLo from "/Users/vinayak/Downloads/The Local Train Aalas Ka Pedh Choo Lo.mp3";
-import Burning from "/Users/vinayak/Downloads/Slow Dancing in a Burning Room John Mayer.mp3";
-import Artic from "/Users/vinayak/Downloads/505.mp3";
 import Timeline from "./components/timeline";
 
 export default function Music() {
@@ -123,7 +114,6 @@ export default function Music() {
                 "https://music.apple.com/in/album/cant-stop-loving-you/1686132427?i=1686132428"
               }
               title={"Can't Stop Loving You - Artemis"}
-              music={Artemas}
             />
           </div>
           <div>
@@ -133,7 +123,6 @@ export default function Music() {
                 "https://music.apple.com/in/album/yellow/1122782080?i=1122782283"
               }
               title={"Yellow - Coldplay"}
-              music={Yellow}
             />
           </div>
           <div>
@@ -143,7 +132,6 @@ export default function Music() {
                 "https://music.apple.com/in/album/stargazing/1541400529?i=1541400545"
               }
               title={"Stargazing - The Neighbourhood"}
-              music={Stargazing}
             />
           </div>
           <div>
@@ -153,7 +141,6 @@ export default function Music() {
                 "https://music.apple.com/in/album/love-back-single/1587171750"
               }
               title={"Love Back - Why Don't We"}
-              music={Love}
             />
           </div>
           <div>
@@ -163,7 +150,6 @@ export default function Music() {
                 "https://music.apple.com/in/album/choo-lo/1710464344?i=1710464678"
               }
               title={"Choo Lo - The Local Train"}
-              music={ChooLo}
             />
           </div>
           <div>
@@ -173,7 +159,6 @@ export default function Music() {
                 "https://music.apple.com/in/album/505/251126923?i=251127052"
               }
               title={"505 - Artic Monkeys"}
-              music={Artic}
             />
           </div>
           <div>
@@ -183,7 +168,7 @@ export default function Music() {
                 "https://music.apple.com/in/album/strawberries-cigarettes/1460746852?i=1460747047"
               }
               title={"Strawberries & Cigarretted - Troye Sivan"}
-              music={Strawberries}
+              
             />
           </div>
           <div>
@@ -193,7 +178,6 @@ export default function Music() {
                 "https://music.apple.com/in/album/story-of-my-life/695312369?i=695312371"
               }
               title={"Story of My Life - One Direction"}
-              music={""}
             />
           </div>
           <div>
@@ -203,7 +187,6 @@ export default function Music() {
                 "https://music.apple.com/in/album/slow-dancing-in-a-burning-room/184335550?i=184335793"
               }
               title={"Slow Dancing in a Burning Room - John Mayer"}
-              music={Burning}
             />
           </div>
           <div>
@@ -213,13 +196,12 @@ export default function Music() {
                 "https://music.apple.com/in/album/mere-bina/390435258?i=390435276"
               }
               title={"Mere Bina- Nikhil D' Souza"}
-              music={""}
             />
           </div>
         </div>
       </div>
       <Timeline />
       <Footer />
-    </div>
+    </div> 
   );
 }

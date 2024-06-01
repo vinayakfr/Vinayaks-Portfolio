@@ -1,5 +1,4 @@
 import { button } from '@nextui-org/react';
-import Popup from 'reactjs-popup';
 
 function Timeline() {
   return (
