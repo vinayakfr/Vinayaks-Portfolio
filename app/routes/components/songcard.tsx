@@ -18,8 +18,8 @@ const MusicCard = ({ image, link, title}: MusicCardProps) => {
             className="h-64 w-72 2xl:h-[30rem] 2xl:w-[30rem] rounded-2xl object-fit"
           />
         </a>
-        <div className="grid xl:grid-rows-1 2xl:grid-rows-3 2xl:place-content-center 2xl:place-items-center">
-          <h1 className="text-white text-center overflow-auto mx-2 xl:h-max xl:text-[1.3rem] 2xl:text-7xl">
+        <div className="grid xl:grid-rows-1 2xl:grid-rows-2 2xl:place-content-center 2xl:place-items-center">
+          <h1 className="text-white text-center overflow-auto mx-2 xl:h-max xl:text-[1.3rem] 2xl:text-6xl">
             {title}
           </h1>
           <div className="flex flex-col place-content-center place-items-center justify-between gap-4 2xl:gap-6 lg:hidden 2xl:block">

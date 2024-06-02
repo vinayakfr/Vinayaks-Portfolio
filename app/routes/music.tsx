@@ -3,6 +3,8 @@ import Navbar from "./components/navbar";
 import MusicCard from "./components/songcard";
 import Vinyl from "./components/vinyl";
 import Timeline from "./components/timeline";
+import Checkpoints from "./components/checkpoints";
+
 
 export default function Music() {
   return (
@@ -110,98 +112,68 @@ export default function Music() {
           <div className="">
             <MusicCard
               image={"artemis.png"}
-              link={
-                "https://music.apple.com/in/album/cant-stop-loving-you/1686132427?i=1686132428"
-              }
-              title={"Can't Stop Loving You - Artemis"}
-            />
+              link={"https://music.apple.com/in/album/cant-stop-loving-you/1686132427?i=1686132428"}
+              title={"Can't Stop Loving You - Artemis"} />
           </div>
           <div>
             <MusicCard
               image={"Yellow.png"}
-              link={
-                "https://music.apple.com/in/album/yellow/1122782080?i=1122782283"
-              }
-              title={"Yellow - Coldplay"}
-            />
+              link={"https://music.apple.com/in/album/yellow/1122782080?i=1122782283"}
+              title={"Yellow - Coldplay"} />
           </div>
           <div>
             <MusicCard
               image={"Stargazing.png"}
-              link={
-                "https://music.apple.com/in/album/stargazing/1541400529?i=1541400545"
-              }
-              title={"Stargazing - The Neighbourhood"}
-            />
+              link={"https://music.apple.com/in/album/stargazing/1541400529?i=1541400545"}
+              title={"Stargazing - The Neighbourhood"} />
           </div>
           <div>
             <MusicCard
               image={"Loveback.png"}
-              link={
-                "https://music.apple.com/in/album/love-back-single/1587171750"
-              }
-              title={"Love Back - Why Don't We"}
-            />
+              link={"https://music.apple.com/in/album/love-back-single/1587171750"}
+              title={"Love Back - Why Don't We"} />
           </div>
           <div>
             <MusicCard
               image={"Choolo.png"}
-              link={
-                "https://music.apple.com/in/album/choo-lo/1710464344?i=1710464678"
-              }
-              title={"Choo Lo - The Local Train"}
-            />
+              link={"https://music.apple.com/in/album/choo-lo/1710464344?i=1710464678"}
+              title={"Choo Lo - The Local Train"} />
           </div>
           <div>
             <MusicCard
               image={"505.png"}
-              link={
-                "https://music.apple.com/in/album/505/251126923?i=251127052"
-              }
-              title={"505 - Artic Monkeys"}
-            />
+              link={"https://music.apple.com/in/album/505/251126923?i=251127052"}
+              title={"505 - Artic Monkeys"} />
           </div>
           <div>
             <MusicCard
               image={"Strawberries.png"}
-              link={
-                "https://music.apple.com/in/album/strawberries-cigarettes/1460746852?i=1460747047"
-              }
-              title={"Strawberries & Cigarretted - Troye Sivan"}
-              
-            />
+              link={"https://music.apple.com/in/album/strawberries-cigarettes/1460746852?i=1460747047"}
+              title={"Strawberries & Cigarretted - Troye Sivan"} />
           </div>
           <div>
             <MusicCard
               image={"Storyofmylife.png"}
-              link={
-                "https://music.apple.com/in/album/story-of-my-life/695312369?i=695312371"
-              }
-              title={"Story of My Life - One Direction"}
-            />
+              link={"https://music.apple.com/in/album/story-of-my-life/695312369?i=695312371"}
+              title={"Story of My Life - One Direction"} />
           </div>
           <div>
             <MusicCard
               image={"Burningroom.png"}
-              link={
-                "https://music.apple.com/in/album/slow-dancing-in-a-burning-room/184335550?i=184335793"
-              }
-              title={"Slow Dancing in a Burning Room - John Mayer"}
-            />
+              link={"https://music.apple.com/in/album/slow-dancing-in-a-burning-room/184335550?i=184335793"}
+              title={"Slow Dancing in a Burning Room - John Mayer"} />
           </div>
           <div>
             <MusicCard
               image={"Merebina.png"}
-              link={
-                "https://music.apple.com/in/album/mere-bina/390435258?i=390435276"
-              }
-              title={"Mere Bina- Nikhil D' Souza"}
-            />
+              link={"https://music.apple.com/in/album/mere-bina/390435258?i=390435276"}
+              title={"Mere Bina- Nikhil D' Souza"} />
           </div>
         </div>
       </div>
       <Timeline />
+      <Checkpoints />
       <Footer />
-    </div> 
+    </div>
   );
 }
