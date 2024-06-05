@@ -6,11 +6,11 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import Background from "./components/background";
-import Devcard from "./components/devcard";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
-import Experience from "./components/experience";
+import Background from "../components/background";
+import Devcard from "../components/devcard";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
+import Experience from "../components/experience";
 
 export default function Home() {
   return (

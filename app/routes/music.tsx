@@ -1,9 +1,9 @@
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
-import MusicCard from "./components/songcard";
-import Vinyl from "./components/vinyl";
-import Timeline from "./components/timeline";
-import Checkpoints from "./components/checkpoints";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
+import MusicCard from "../components/songcard";
+import Vinyl from "../components/vinyl";
+import Timeline from "../components/timeline";
+import Checkpoints from "../components/checkpoints";
 
 
 export default function Music() {
