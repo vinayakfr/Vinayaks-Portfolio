@@ -55,7 +55,7 @@ export default function Home() {
         </h1>
         <div className="bg-zinc-800 h-max w-[90%] rounded-2xl mt-5 p-5">
           <p className="text-center xl:text-2xl 2xl:text-5xl font-medium">
-            An Engineering student with a passion for music. I am pursuing my B.Tech Degree in CSE with specialisation in computer science from SRM University of Science and Technology. I am very passionate about music and try to keep myself indulged with the subject.
+          I am an engineering student with a passion for music, currently pursuing a B.Tech in Computer Science and Engineering at SRM University of Science and Technology. I stay actively engaged with music alongside my studies.
           </p>
         </div>
       </div>
@@ -67,8 +67,8 @@ export default function Home() {
       <div className="flex place-content-center place-items-center">
         <div className="h-auto w-[90%] bg-zinc-950 rounded-xl p-4">
           <h1 className="text-left text-2xl px-2 md:text-3xl 2xl:text-5xl leading-snug font-extralight 2xl:font-thin text-white">
-            Since an early age, Vinayak was interested in computer science and robotics. Vinayak made small projects in school but nothing major until he came to college. Vinayak is a creative person, he searching for ways to channel his creativity; and that's the reason why Vinayak started his journey as a front-end developer.<br/><br/>
-            Vinayak is a hard-working individual with a hunger for knowledge. He thrives on improving himself day by day.
+          Since an early age, Vinayak has been interested in computer science and robotics. While he worked on small projects in school, his real breakthroughs came in college. As a creative person, Vinayak sought ways to channel his creativity, leading him to start his journey as a front-end developer.<br/><br/>
+          Vinayak is hard-working and has a hunger for knowledge, constantly striving to improve himself every day.
             <br/><br/>
             <a className="italic font-extralight bg-gradient-to-tr from-zinc-600 via-rose-600 to-zinc-600 text-transparent bg-clip-text">“If there is no struggle, there is no progress.” - Frederick Douglass</a><br/><br/>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt excepturi dolore incidunt commodi beatae illo, delectus nisi voluptate blanditiis praesentium obcaecati. Magnam libero dignissimos adipisci impedit modi accusamus officia suscipit accusantium harum, illo corrupti vero cumque placeat nam inventore provident voluptas in quam veritatis? Nihil sunt repellat sed id recusandae.<br/><br/>

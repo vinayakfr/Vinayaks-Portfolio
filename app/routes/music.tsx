@@ -3,8 +3,6 @@ import Navbar from "../components/navbar";
 import MusicCard from "../components/songcard";
 import Vinyl from "../components/vinyl";
 import Timeline from "../components/timeline";
-import Checkpoints from "../components/checkpoints";
-
 
 export default function Music() {
   return (
@@ -101,7 +99,6 @@ In 8th grade, Vinayak started developing an interest in <a className="bg-gradien
         </div>
       </div>
       <Timeline />
-      <Checkpoints />
       <Footer />
     </div>
   );

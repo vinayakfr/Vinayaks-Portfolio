@@ -22,7 +22,7 @@ export default function Footer() {
           </h1>
           <div className="flex place-content-center place-items-center md:place-content-start gap-2 2xl:gap-6 lg:text-xl 2xl:text-3xl">
             <a href="/projects" className="hover:text-rose-700">Projects |</a>
-            <a href="" className="hover:text-rose-700">Playlist |</a>
+            <a href="https://music.apple.com/in/library/all-playlists/?l=en-GB" className="hover:text-rose-700">Playlist |</a>
             <a href="/resume" className="hover:text-rose-700">Resume |</a>
             <a href="/contact" className="hover:text-rose-700">Contact</a>
           </div>
