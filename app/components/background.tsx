@@ -1,6 +1,6 @@
 export default function Background() {
   return (
-    <div className="absolute h-40 w-40 md:h-64 md:w-64 lg:h-[25rem] lg:w-[25rem] 2xl:h-[43rem] 2xl:w-[43rem] border-2 rounded-none bg-rose-600 border-rose-600 animate-pulse opacity-70">
+    <div className="absolute h-40 w-40 md:h-64 md:w-64 lg:h-[25rem] lg:w-[25rem] 2xl:h-[43rem] 2xl:w-[43rem] border-2 rounded-none bg-rose-600 border-rose-600 animate-pulse opacity-60">
       {/* Main Square */}
       <div className="h-36 w-36 md:h-52 md:w-52 2xl:h-[35rem] 2xl:w-[35rem] translate-x-24 -translate-y-10 md:translate-x-40 md:-translate-y-12 lg:h-72 lg:w-72 bg-gradient-to-tr from-rose-600 to-transparent lg:translate-x-[15rem] lg:-translate-y-[10rem] 2xl:translate-x-[30rem] 2xl:-translate-y-[15rem]"></div>
       {/* Top-right Square */}  

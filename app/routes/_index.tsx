@@ -65,14 +65,18 @@ export default function Home() {
         </h1>
       </div>
       <div className="flex place-content-center place-items-center">
-        <div className="h-96 w-[95%] xl:w-[70%] overflow-auto bg-zinc-950 rounded-xl p-4">
-          <h1 className="text-center text-3xl px-2 md:text-4xl 2xl:text-6xl leading-snug font-extralight 2xl:font-thin text-white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum voluptatum cum placeat molestias repellendus blanditiis beatae commodi corrupti. Officiis, assumenda consectetur amet aliquam ipsum labore sint optio non quam dolorum, vitae in magni eos libero! Cumque praesentium libero voluptatibus similique officia hic earum molestiae consequuntur eaque commodi quis consectetur dolores veritatis adipisci quaerat doloremque temporibus consequatur unde error, tempore sed deserunt. Obcaecati enim a sint voluptatibus commodi amet tempore! Veritatis quisquam beatae accusamus praesentium sint consequuntur adipisci deleniti dolore hic magni, perferendis totam debitis mollitia obcaecati nostrum perspiciatis quibusdam explicabo quas, a impedit eveniet! Quod laudantium maxime suscipit quis. Distinctio.
+        <div className="h-auto w-[90%] bg-zinc-950 rounded-xl p-4">
+          <h1 className="text-justify text-2xl px-2 md:text-3xl 2xl:text-5xl leading-snug font-extralight 2xl:font-thin text-white">
+            Since an early age, Vinayak was interested in computer science and robotics. Vinayak made small projects in school but nothing major until he came to college. Vinayak is a creative person, he searching for ways to channel his creativity; and that's the reason why Vinayak started his journey as a front-end developer.<br/><br/>
+            Vinayak is a hard-working individual with a hunger for knowledge. He thrives on improving himself day by day.
+            <br/><br/>
+            <a className="italic font-extralight bg-gradient-to-tr from-zinc-600 via-rose-600 to-zinc-600 text-transparent bg-clip-text">“If there is no struggle, there is no progress.” - Frederick Douglass</a><br/>
+            
           </h1>
         </div>
       </div>
 
-      <div className="flex flex-col place-items-center gap-14 py-10 md:py-14">
+      <div className="flex flex-col place-items-center gap-14 mt-28">
         <div className="h-44 w-44 md:h-[200px] md:w-[200px] bg-gradient-to-tr from-zinc-800 to-rose-500 transform duration-700 rounded-full py-14 text-6xl flex place-content-center place-items-center ">
           <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-black via-rose-800 to-black text-transparent bg-clip-text">
             Skills
