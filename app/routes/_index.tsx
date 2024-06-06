@@ -66,12 +66,13 @@ export default function Home() {
       </div>
       <div className="flex place-content-center place-items-center">
         <div className="h-auto w-[90%] bg-zinc-950 rounded-xl p-4">
-          <h1 className="text-justify text-2xl px-2 md:text-3xl 2xl:text-5xl leading-snug font-extralight 2xl:font-thin text-white">
+          <h1 className="text-left text-2xl px-2 md:text-3xl 2xl:text-5xl leading-snug font-extralight 2xl:font-thin text-white">
             Since an early age, Vinayak was interested in computer science and robotics. Vinayak made small projects in school but nothing major until he came to college. Vinayak is a creative person, he searching for ways to channel his creativity; and that's the reason why Vinayak started his journey as a front-end developer.<br/><br/>
             Vinayak is a hard-working individual with a hunger for knowledge. He thrives on improving himself day by day.
             <br/><br/>
-            <a className="italic font-extralight bg-gradient-to-tr from-zinc-600 via-rose-600 to-zinc-600 text-transparent bg-clip-text">“If there is no struggle, there is no progress.” - Frederick Douglass</a><br/>
-            
+            <a className="italic font-extralight bg-gradient-to-tr from-zinc-600 via-rose-600 to-zinc-600 text-transparent bg-clip-text">“If there is no struggle, there is no progress.” - Frederick Douglass</a><br/><br/>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt excepturi dolore incidunt commodi beatae illo, delectus nisi voluptate blanditiis praesentium obcaecati. Magnam libero dignissimos adipisci impedit modi accusamus officia suscipit accusantium harum, illo corrupti vero cumque placeat nam inventore provident voluptas in quam veritatis? Nihil sunt repellat sed id recusandae.<br/><br/>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime nobis ipsum expedita voluptatem aperiam, doloremque optio sapiente ex laborum earum! Ipsa quis est architecto nemo!
           </h1>
         </div>
       </div>
@@ -106,7 +107,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col place-items-center place-content-center pt-16">
+      <div className="flex flex-col place-items-center place-content-center pt-32">
         <div className="absolute h-52 w-52 md:h-[250px] md:w-[250px] bg-gradient-to-tl from-rose-500 to-zinc-800 transform duration-700 rounded-full flex place-content-center place-items-center">
           <h1 className="text-7xl font-medium bg-gradient-to-tr from-orange-900 via-orange-500 to-orange-900 text-transparent bg-clip-text">
             Projects
