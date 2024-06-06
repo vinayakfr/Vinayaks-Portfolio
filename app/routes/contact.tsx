@@ -6,13 +6,11 @@ export default function Contact() {
     <div>
       <Navbar />
       <div className="text-white flex flex-col place-content-center place-items-center py-5">
-        <h1 className="text-5xl xl:text-8xl font-bold bg-gradient-to-br from-zinc-800 via-rose-700 to-zinc-800 text-transparent bg-clip-text">
+        <h1 className="text-center text-5xl px-2 xl:text-8xl font-bold bg-gradient-to-br from-zinc-800 via-rose-700 to-zinc-800 text-transparent bg-clip-text">
           Let's get in touch
         </h1>
         <p className="text-2xl xl:text-4xl text-center py-9 px-4 xl:px-5 font-light">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In quos est
-          beatae architecto distinctio delectus iure excepturi doloremque? Nemo,
-          amet!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quia.
         </p>
         <div className="hidden xl:block py-10 w-[80%]">
           <div className="flex gap-10">
