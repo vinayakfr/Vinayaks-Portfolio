@@ -22,7 +22,7 @@ export default function Home() {
           <Background />
         </div>
         <div className="absolute flex flex-col gap-1 place-content-center place-items-center">
-          <h1 className="text-4xl md:text-6xl lg:text-[7rem] xl:text-9xl 2xl:text-[12rem] bg-gradient-to-tr from-rose-600 via-zinc-800 to-rose-600 text-transparent bg-clip-text">
+          <h1 className="text-4xl md:text-6xl lg:text-[7rem] xl:text-9xl 2xl:text-[12rem] bg-gradient-to-tr from-rose-800 via-zinc-300 to-rose-800 text-transparent bg-clip-text">
             Vinayak Srivastava
           </h1>
           <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <h1 className="text-center font-extrabold py-10 px-[0.7rem] xl:text-7xl 2xl:text-8xl text-4xl 2xl:p-20">
+        <h1 className="text-center font-extrabold py-10 px-[0.7rem] xl:text-7xl 2xl:text-8xl text-4xl 2xl:p-20 bg-gradient-to-tr from-rose-700 via-white to-rose-700 text-transparent bg-clip-text">
           With great powers come great responsibility
         </h1>
       </div>
@@ -78,13 +78,13 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col place-items-center gap-14 mt-28">
-        <div className="h-44 w-44 md:h-[200px] md:w-[200px] bg-gradient-to-tr from-zinc-800 to-rose-500 transform duration-700 rounded-full py-14 text-6xl flex place-content-center place-items-center ">
-          <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-black via-rose-800 to-black text-transparent bg-clip-text">
+        <div className="h-44 w-44 md:h-[200px] md:w-[200px] bg-gradient-to-tr from-transparent via-rose-500 to-transparent transform duration-700 rounded-full py-14 text-6xl flex place-content-center place-items-center ">
+          <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-rose-800 via-zinc-300 to-rose-800 text-transparent bg-clip-text">
             Skills
           </h1>
         </div>
-        <div className="absolute h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-zinc-800 to-rose-500 transform duration-700 translate-x-20 -translate-y-6 md:translate-x-[100px] md:-translate-y-[50px] rounded-full"></div>
-        <div className="absolute h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-rose-500 to-zinc-800 transform duration-700 -translate-x-24 translate-y-28 md:-translate-x-[105px] md:translate-y-[7.5rem] rounded-full"></div>
+        <div className="absolute h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-transparent to-rose-500 transform duration-700 translate-x-20 -translate-y-6 md:translate-x-[100px] md:-translate-y-[50px] rounded-full"></div>
+        <div className="absolute h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-rose-500 to-transparent transform duration-700 -translate-x-24 translate-y-28 md:-translate-x-[105px] md:translate-y-[7.5rem] rounded-full"></div>
         <div className="md:hidden">
           <div className="grid grid-rows-2 grid-cols-3 gap-x-20 gap-y-16 md:gap-x-28 md:gap-y-20 justify-between pt-3">
             <SiJavascript size={50} color="zinc" />
@@ -108,13 +108,13 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col place-items-center place-content-center pt-32">
-        <div className="absolute h-52 w-52 md:h-[250px] md:w-[250px] bg-gradient-to-tl from-rose-500 to-zinc-800 transform duration-700 rounded-full flex place-content-center place-items-center">
-          <h1 className="text-7xl font-medium bg-gradient-to-tr from-orange-900 via-orange-500 to-orange-900 text-transparent bg-clip-text">
+        <div className="absolute h-52 w-52 md:h-[225px] md:w-[225px] bg-gradient-to-tl from-transparent via-rose-500 to-transparent transform duration-700 rounded-full flex place-content-center place-items-center">
+          <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-rose-700 via-white to-rose-800 text-transparent bg-clip-text">
             Projects
           </h1>
         </div>
-        <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-zinc-800 to-rose-500 translate-x-24 translate-y-36 md:translate-x-[100px] md:translate-y-[160px] rounded-full"></div>
-        <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-zinc-800 to-rose-500 -translate-x-24 -translate-y-36 md:-translate-x-[100px] md:-translate-y-[175px] rounded-full"></div>
+        <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-transparent to-rose-500 translate-x-24 translate-y-36 md:translate-x-[90px] md:translate-y-[160px] rounded-full"></div>
+        <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-transparent to-rose-500 -translate-x-24 -translate-y-36 md:-translate-x-[90px] md:-translate-y-[155px] rounded-full"></div>
       </div>
       <div className="flex place-content-center place-items-center p-12">
         <div className="flex gap-10 overflow-auto pt-10">

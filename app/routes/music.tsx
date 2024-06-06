@@ -14,7 +14,7 @@ export default function Music() {
         <div className="flex place-content-center place-items-center">
           <Vinyl />
           <div className="absolute">
-            <h1 className="text-9xl 2xl:text-[12rem] text-center font-bold bg-gradient-to-tr from-zinc-950 via-rose-600 to-zinc-950 text-transparent bg-clip-text">
+            <h1 className="text-9xl 2xl:text-[12rem] text-center font-bold bg-gradient-to-br from-white via-rose-600 to-white text-transparent bg-clip-text">
               Music
             </h1>
           </div>
@@ -29,7 +29,7 @@ export default function Music() {
           magni hic aliquid harum distinctio voluptates!
         </p>
         <div className="flex flex-col place-items-center place-content-center 2xl:pt-28">
-          <h1 className="text-5xl xl:text-8xl 2xl:text-9xl text-white font-medium">
+          <h1 className="text-5xl xl:text-8xl 2xl:text-9xl font-medium bg-gradient-to-tr from-rose-700 via-white to-rose-700 text-transparent bg-clip-text">
             Journey
           </h1>
           <div className="w-[90%] xl:w-[70%] h-[1px] bg-white my-5"></div>
@@ -104,8 +104,8 @@ export default function Music() {
           </div>
         </div>
       </div>
-      <h1 className="text-5xl xl:text-7xl 2xl:text-9xl text-center text-white font-semibold p-10 2xl:p-14">
-        You didn't forget your headphones, did you? 👀
+      <h1 className="text-white text-5xl xl:text-7xl 2xl:text-9xl text-center font-semibold p-10 2xl:p-14">
+        And people ask why I always carry headphopnes...👀
       </h1>
       <div className="flex place-content-center place-items-center px-12">
         <div className="flex gap-5 overflow-auto">
