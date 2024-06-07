@@ -55,7 +55,10 @@ export default function Home() {
         </h1>
         <div className="bg-zinc-800 h-max w-[90%] rounded-2xl mt-5 p-5">
           <p className="text-center xl:text-2xl 2xl:text-5xl font-medium">
-          I am an engineering student with a passion for music, currently pursuing a B.Tech in Computer Science and Engineering at SRM University of Science and Technology. I stay actively engaged with music alongside my studies.
+            I am an engineering student with a passion for music, currently
+            pursuing a B.Tech in Computer Science and Engineering at SRM
+            University of Science and Technology. I stay actively engaged with
+            music alongside my studies.
           </p>
         </div>
       </div>
@@ -67,12 +70,27 @@ export default function Home() {
       <div className="flex place-content-center place-items-center">
         <div className="h-auto w-[90%] bg-zinc-950 rounded-xl p-4">
           <h1 className="text-left text-2xl px-2 md:text-3xl 2xl:text-5xl leading-snug font-extralight 2xl:font-thin text-white">
-          Since an early age, Vinayak has been interested in computer science and robotics. While he worked on small projects in school, his real breakthroughs came in college. As a creative person, Vinayak sought ways to channel his creativity, leading him to start his journey as a front-end developer.<br/><br/>
-          Vinayak is hard-working and has a hunger for knowledge, constantly striving to improve himself every day.
-            <br/><br/>
-            <a className="italic font-extralight bg-gradient-to-tr from-zinc-600 via-rose-600 to-zinc-600 text-transparent bg-clip-text">“If there is no struggle, there is no progress.” - Frederick Douglass</a><br/><br/>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt excepturi dolore incidunt commodi beatae illo, delectus nisi voluptate blanditiis praesentium obcaecati. Magnam libero dignissimos adipisci impedit modi accusamus officia suscipit accusantium harum, illo corrupti vero cumque placeat nam inventore provident voluptas in quam veritatis? Nihil sunt repellat sed id recusandae.<br/><br/>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime nobis ipsum expedita voluptatem aperiam, doloremque optio sapiente ex laborum earum! Ipsa quis est architecto nemo!
+            Since an early age, Vinayak has been interested in computer science
+            and robotics. While he worked on small projects in school, his real
+            breakthroughs came in college. As a creative person, Vinayak sought
+            ways to channel his creativity, leading him to start his journey as
+            a front-end developer.
+            <br />
+            <br />
+            Vinayak is disciplined, hard-working and has a hunger for knowledge, constantly
+            striving to improve himself every day.
+            <br />
+            <br />
+            <a className="italic font-extralight bg-gradient-to-tr from-zinc-600 via-rose-600 to-zinc-600 text-transparent bg-clip-text">
+              “If there is no struggle, there is no progress.” - Frederick
+              Douglass
+            </a>
+            <br />
+            <br />
+            Being a part of <a className="italic">SRMKZILLA</a> has taught him how to be a team-player. It was also the starting point of Vinayak's coding journey. Vinayak loves to create beautiful and interactive UI and has worked on a few freelancing projects. Beyond coding, he enjoys sports and maintains a daily reading habit. He is adventurous and loves exploring new things.
+            <br />
+            <br />
+            Since the age of 8, music has been a significant part of Vinayak's life. He continues to practice and refine his musical skills. You can listen to his covers on his <a href="" className="italic underline">Instagram</a> music page.
           </h1>
         </div>
       </div>
@@ -129,12 +147,12 @@ export default function Home() {
             heading={"Unbranded Cosmetics"}
             time={"15.02.2024 - 01.04.2024"}
             text={
-              "Mozofest is a flagship event of SRMKZILLA which is the official Mozilla Learning Campus Club at SRMIST. Helped in the gront-end portion of Mozofest."
+              "Unbranded Boutique is a manufacturing brand based in USA. It helps upcoming skincare brands to grow their market"
             }
           />
         </div>
       </div>
-      <div className="flex place-content-center pt-16 md:-translate-y-24">
+      <div className="flex place-content-center pt-10 md:pt-16 md:-translate-y-24">
         <Devcard />
       </div>
       <div>

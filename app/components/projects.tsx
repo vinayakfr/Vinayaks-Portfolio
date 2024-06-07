@@ -1,3 +1,5 @@
+import { useRef } from "react";
+
 interface ProjectsProps {
     heading: string;
     time: string;
@@ -6,7 +8,7 @@ interface ProjectsProps {
 
 const Experience = ({heading, time, text}: ProjectsProps) => {
     return (
-        <div className="">
+        <div>
             <div className="flex gap-12">
                 <div className="h-84 w-72 xl:h-[20rem] xl:w-[40rem] bg-zinc-800 rounded-2xl grid grid-rows-3 place-content-center place-items-center px-3">
                     <h1 className="text-3xl text-center font-semibold">{heading}</h1>
