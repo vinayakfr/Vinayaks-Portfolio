@@ -47,7 +47,7 @@ export default function Footer() {
             >
               Playlist |
             </a>
-            <a href="/resume" className="hover:text-rose-700">
+            <a href="/resume.pdf" className="hover:text-rose-700">
               Resume |
             </a>
             <a href="/contact" className="hover:text-rose-700">
