@@ -31,6 +31,12 @@ export default function Navbar() {
             Projects
           </a>
           <a
+            href="/resume.pdf"
+            className="hover:text-rose-500 transform duration-700"
+          >
+            Resume
+          </a>
+          <a
             href="/music"
             className="hover:text-rose-500 transform duration-700"
           >
@@ -76,6 +82,15 @@ export default function Navbar() {
             onClick={handleMenu}
           >
             Music
+          </a>
+          <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" />
+          <br />
+          <a
+            href="/resume.pdf"
+            className="text-2xl hover:text-rose-500"
+            onClick={handleMenu}
+          >
+            Resume
           </a>
           <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" />
           <br />

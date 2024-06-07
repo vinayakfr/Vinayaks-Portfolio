@@ -37,70 +37,50 @@ export default function Music() {
           <div className="w-[90%] xl:w-[70%] h-[1px] bg-white my-5"></div>
           <div className="h-[15rem] xl:w-[80%] overflow-auto">
             <h1 className="text-xl xl:text-3xl 2xl:text-5xl text-center text-white mx-10 font-thin 2xl:font-light">
-              It all started in 3rd grade when Vinayak was given an ultimatum
-              between Dance, Music, and Theatre. With a promise to his mother
-              that he would sing all the songs taught to him in Music, she
-              filled out the music check-box. He wasn't very keen at first, but
-              his interest{" "}
+              I had no other option but to choose music because it was the most
+              comfortable option compared to dance and theatre. But this choice
+              also had its conditions: my mother made me promise that I would
+              sing and play for her all the songs that were taught to me in
+              music class. And as you can all guess, my interest was nowhere
+              near music when I first started my journey; at that time, I didn't
+              even know my time with music would eventually become a{" "}
+              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
+                journey.{" "}
+              </a>{" "}
+              <br />
+              My interest{" "}
               <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
                 sparked{" "}
               </a>{" "}
-              when he met his new music teacher in 5th grade. It didn't take
-              much time for the new teacher to become his idol. Vinayak became
-              more{" "}
+              My{" "}
+              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
+                interest
+              </a>{" "}
+              sparked when I met my new music teacher in 5th grade. It didn't
+              take long for him to become one of the people I respect the most.
+              In his presence, I became more and more{" "}
               <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
                 fascinated{" "}
-              </a>{" "}
-              by music and wanted to learn everything he could in his music
-              room. Following his old music teacher's suggestion to make him
-              learn the{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
-                Tabla{" "}
-              </a>{" "}
-              seriously, his mother enrolled him in tabla classes for one year.
-              Although Vinayak wasn't very fond of the tabla, he was quite good
-              at it. In 6th grade, Vinayak became one of the{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
-                founding members{" "}
-              </a>{" "}
-              of his school{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
-                orchestra group{" "}
               </a>
-              , which was a pretty big deal for him. He loved the stay-backs and
-              the early morning practices, as well as the fact that he could
-              skip class periods for his 'orchestra practice.' He also loved how
-              his music teacher would pick him up in the morning and drop him
-              back at home after practice. The orchestra team always placed in
-              the top three but never scored first place. In 8th grade, Vinayak
-              started developing an interest in{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
-                string instruments
-              </a>
-              , so he joined his music teacher's music school. Vinayak was a
-              'quick learner,' as his teacher would say; he was indeed{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
-                talented
-              </a>
-              . Vinayak took his first music exam in guitar from{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
-                Trinity College
-              </a>
-              , London. After changing schools in 11th grade, Vinayak became a
-              part of his new school's orchestra team. Not to his surprise, he
-              was still on{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
-                {" "}
-                percussion{" "}
-              </a>
-              , as he was before. With his new team, Vinayak returned to his old
-              school, where his journey began, to complete the circle. This
-              time, he won the{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
-                Zonal Level Orchestra Competition.{" "}
-              </a>
-              . Vinayak felt both happy and nostalgic as he celebrated his
-              victory with his teammates.
+              with the subject and wanted to learn every instrument in the music
+              room. Looking back, I believe it was never about the subject but
+              the people I met through music and the memories I made.
+              <br />
+              The first instrument I sincerely learned was the{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">tabla</a>. My mother
+              enrolled me in tabla classes for one year, but gradually, I lost
+              interest. In{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">6th grade</a>, I became one of the{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">founding members</a> of my
+              school's orchestra group, which was a pretty big deal for me. I
+              used to love the stay-backs and the practices in between classes.
+              It gave me a chance to skip some boring subjects, which were
+              boring only because I got to do something that I loved. We
+              participated in{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">Zonal Level Orhestra Competitions{" "}</a>but never won;
+              we were either placed in 2nd or 3rd position. In 8th grade, I
+              started developing an interest in stringed instruments, so I
+              joined my music teacher's school. I was a{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse"> "quick learner,"</a> as my
+              teacher would say. I took my first music exam and passed with
+              merit from Trinity College of Music, London. After changing
+              schools in 11th grade, I joined my new school's orchestra team.
+              This time, we won the{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">Zonal Level Orchestra Competition.</a>
             </h1>
           </div>
         </div>
