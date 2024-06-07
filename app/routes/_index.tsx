@@ -26,7 +26,6 @@ export default function Home() {
           </h1>
           <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
             <a
-              href="./developer"
               className="hover:text-black transition duration-700"
             >
               Developer
@@ -40,7 +39,6 @@ export default function Home() {
             </a>{" "}
             |{" "}
             <a
-              href="./student"
               className="hover:text-black transition duration-700"
             >
               Student
