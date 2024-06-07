@@ -87,7 +87,7 @@ export default function Navbar() {
           <br />
           <a
             href="/resume.pdf"
-            className="text-2xl hover:text-rose-500"
+            className="text-2xl mb-6 hover:text-rose-500"
             onClick={handleMenu}
           >
             Resume
