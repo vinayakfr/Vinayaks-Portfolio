@@ -15,7 +15,7 @@ function Projects() {
             alt=""
             className="w-full h-[20rem] md:h-[31rem] bg-zinc-800 rounded-xl object-fit hidden md:block"
           />
-           <img
+          <img
             src="Mozofest2.png"
             alt=""
             className="w-full h-[20rem] md:h-[31rem] bg-zinc-800 rounded-xl object-fit md:hidden"

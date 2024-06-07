@@ -2,7 +2,6 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 
 export default function Contact() {
-  
   return (
     <div>
       <Navbar />
@@ -90,8 +89,5 @@ export default function Contact() {
       </div>
       <Footer />
     </div>
-
-    
   );
 }
-

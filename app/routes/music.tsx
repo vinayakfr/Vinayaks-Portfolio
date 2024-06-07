@@ -23,7 +23,12 @@ export default function Music() {
           Music
         </h1>
         <p className="text-xl xl:text-4xl 2xl:text-7xl text-center font-light text-white p-4 xl:p-10">
-        “If I were not a physicist, I would probably be a musician. I often think in music. I live my daydreams in music. I see my life in terms of music.” — <a href="" className="italic font-extralight xl:text-3xl">Albert Einstein</a>
+          “If I were not a physicist, I would probably be a musician. I often
+          think in music. I live my daydreams in music. I see my life in terms
+          of music.” —{" "}
+          <a href="" className="italic font-extralight xl:text-3xl">
+            Albert Einstein
+          </a>
         </p>
         <div className="flex flex-col place-items-center place-content-center 2xl:pt-28">
           <h1 className="text-5xl xl:text-8xl 2xl:text-9xl font-medium bg-gradient-to-tr from-rose-700 via-white to-rose-700 text-transparent bg-clip-text">
