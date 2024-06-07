@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </div>
       <div className="pt-40 md:pt-64 lg:pt-[27.5rem] 2xl:pt-[45rem] flex flex-col place-content-center place-items-center">
-        <h1 className="font-extrabold text-4xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-[9rem] text-center bg-gradient-to-tr from-zinc-950 via-rose-600 to-zinc-950 text-transparent bg-clip-text">
+        <h1 className="font-extrabold text-[2.45rem] md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-[9rem] text-center bg-gradient-to-tr from-zinc-950 via-rose-600 to-zinc-950 text-transparent bg-clip-text">
           About Me
         </h1>
         <div className="bg-zinc-800 h-max w-[90%] rounded-2xl mt-5 p-5">
