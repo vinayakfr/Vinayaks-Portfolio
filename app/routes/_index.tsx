@@ -6,7 +6,6 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import { TbBrandCpp } from "react-icons/tb";
 import Background from "../components/background";
 import Devcard from "../components/devcard";
 import Footer from "../components/footer";
@@ -97,7 +96,7 @@ export default function Home() {
 
       <div className="flex flex-col place-items-center gap-14 mt-28">
         <div className="h-44 w-44 md:h-[200px] md:w-[200px] bg-gradient-to-tr from-transparent via-rose-500 to-transparent transform duration-700 rounded-full py-14 text-6xl flex place-content-center place-items-center ">
-          <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-rose-800 via-zinc-300 to-rose-800 text-transparent bg-clip-text">
+          <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-rose-800 via-zinc-800 to-rose-800 text-transparent bg-clip-text">
             Skills
           </h1>
         </div>

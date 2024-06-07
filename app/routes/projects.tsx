@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
@@ -10,11 +9,16 @@ function Projects() {
         Projects
       </h1>
       <div className="text-white flex flex-col gap-16 place-content-center place-items-center py-10">
-        <div className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline bg-black flex flex-col place-content-start">
+        <div className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline outline-2 outline-zinc-800 bg-black flex flex-col place-content-start">
           <img
             src="Mozofest.png"
             alt=""
-            className="w-full h-[20rem] md:h-[31rem] bg-zinc-800 rounded-xl object-fit"
+            className="w-full h-[20rem] md:h-[31rem] bg-zinc-800 rounded-xl object-fit hidden md:block"
+          />
+           <img
+            src="Mozofest2.png"
+            alt=""
+            className="w-full h-[20rem] md:h-[31rem] bg-zinc-800 rounded-xl object-fit md:hidden"
           />
           <div className="px-5">
             <h1 className="text-center text-2xl md:text-4xl 2xl:text-6xl font-bold py-2 2xl:py-6">
@@ -29,7 +33,7 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline bg-black flex flex-col place-content-start">
+        <div className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline outline-2 outline-zinc-800 bg-black flex flex-col place-content-start">
           <img
             src="Unbranded.png"
             alt=""
