@@ -10,7 +10,7 @@ const Experience = ({heading, time, text}: ProjectsProps) => {
     return (
         <div>
             <div className="flex gap-12">
-                <div className="h-84 w-72 xl:h-[20rem] xl:w-[40rem] bg-zinc-800 rounded-2xl grid grid-rows-3 place-content-center place-items-center px-3">
+                <div className="h-[22.5rem] w-72 xl:h-[20rem] xl:w-[40rem] bg-zinc-800 rounded-2xl grid grid-rows-3 place-content-center place-items-center px-3">
                     <h1 className="text-3xl text-center font-semibold">{heading}</h1>
                     <p className="text-xl font-extralight">{time}</p>
                     <p className="text-center text-wrap">{text}</p>
