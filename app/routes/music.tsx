@@ -152,6 +152,24 @@ export default function Music() {
               title={"Slow Dancing in a Burning Room - John Mayer"}
             />
           </div>
+          <div>
+            <MusicCard
+              image={"Iris.png"}
+              link={
+                "https://music.apple.com/in/album/iris/1109658139?i=1109658204"
+              }
+              title={"Iris - The Goo Goo Dolls"}
+            />
+          </div>
+          <div>
+            <MusicCard
+              image={"Black-And-White.png"}
+              link={
+                "https://music.apple.com/in/album/black-and-white/1497607470?i=1497608050"
+              }
+              title={"Slow Dancing in a Burning Room - John Mayer"}
+            />
+          </div>
         </div>
       </div>
       <Footer />

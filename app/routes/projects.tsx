@@ -10,11 +10,11 @@ function Projects() {
         Projects
       </h1>
       <div className="text-white flex flex-col gap-16 place-content-center place-items-center py-10">
-        <div className="w-[70%] h-[35rem] rounded-xl outline bg-black flex flex-col place-content-start">
+        <div className="w-[70%] h-[40rem] rounded-xl outline bg-black flex flex-col place-content-start">
           <img
             src=""
             alt=""
-            className="w-full h-[22.5rem] bg-zinc-800 rounded-xl"
+            className="w-full h-[31rem] bg-zinc-800 rounded-xl"
           />
           <div className="px-5">
             <h1 className="text-center text-4xl font-bold py-2">MOZOFEST'23</h1>
@@ -27,11 +27,11 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="w-[70%] h-[35rem] rounded-xl outline bg-black flex flex-col place-content-start">
+        <div className="w-[70%] h-[42.5rem] rounded-xl outline bg-black flex flex-col place-content-start">
           <img
-            src=""
+            src="Unbranded.png"
             alt=""
-            className="w-full h-[22.5rem] bg-zinc-800 rounded-xl"
+            className="w-full h-[31rem] bg-zinc-800 rounded-xl object-cover"
           />
           <div className="px-5">
             <h1 className="text-center text-4xl font-bold py-2">

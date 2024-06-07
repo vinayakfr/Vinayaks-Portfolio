@@ -19,7 +19,7 @@ const MusicCard = ({ image, link, title}: MusicCardProps) => {
           />
         </a>
         <div className="grid grid-rows-2 place-content-center place-items-center">
-          <h1 className="text-white text-center mx-2 h-auto text-xl xl:text-[1.3rem] 2xl:text-6xl">
+          <h1 className="text-white text-center mx-2 h-14 text-xl xl:text-[1.3rem] 2xl:text-6xl">
             {title}
           </h1>
           <div className="grid grid-rows-2 place-content-center place-items-center 2xl:gap-6 ">
