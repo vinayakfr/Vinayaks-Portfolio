@@ -10,14 +10,19 @@ export default function Contact() {
           Let's get in touch
         </h1>
         <p className="text-2xl xl:text-4xl 2xl:text-5xl text-center py-9 px-4 xl:px-5 font-light">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quia.
+          Fill out the form below and I will get in touch with you as soon as possible <br />
         </p>
         {/* <div className="hidden xl:block py-10 w-[80%]">
           <div className="flex gap-10">
             <div className="h-[15rem] w-full bg-zinc-800 rounded-xl">
+              <h1 className="text-center xl:text-4xl font-bold py-5">Notice:</h1>
+              <p className="xl:text-2xl px-5">Meeting Hours</p>
+              <br />
+              <li className="text-left xl:text-xl px-5">05:30 p.m to 08:00 p.m on Weekdays</li>
+              <br />
+              <li className="text-left xl:text-xl px-5">02:00 p.m to 06:00 p.m on Weekends</li>
             </div>
             <div className="h-[15rem] w-full bg-zinc-800 rounded-xl">
-              <h1>Preffered Time</h1>
             </div>
           </div>
         </div> */}
