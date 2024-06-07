@@ -13,7 +13,7 @@ export default function Navbar() {
       <a href="/" className="text-lg md:text-xl xl:text-3xl 2xl:text-6xl text-white hover:text-rose-500">
         VS
       </a>
-      <button className="text-white cursor-pointer hover:text-rose-500 sm:hidden" onClick={handleMenu}>
+      <button className="text-white sm:hidden" onClick={handleMenu}>
         <CgMenuGridO size={25} />
       </button>
       <div className="hidden sm:block">
