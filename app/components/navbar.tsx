@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CgMenuGridO } from "react-icons/cg";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +17,7 @@ export default function Navbar() {
         VS
       </a>
       <button className="text-white sm:hidden" onClick={handleMenu}>
-        <CgMenuGridO size={25} />
+        <GiHamburgerMenu size={25} />
       </button>
       <div className="hidden sm:block">
         <div className="md:text-xl xl:text-3xl 2xl:text-6xl flex gap-5 xl:gap-7 2xl:gap-12 text-white">
