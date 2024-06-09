@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +17,7 @@ export default function Navbar() {
         VS
       </a>
       <button className="text-white sm:hidden" onClick={handleMenu}>
-        <GiHamburgerMenu size={25} />
+        <RxHamburgerMenu size={25} />
       </button>
       <div className="hidden sm:block">
         <div className="md:text-xl xl:text-3xl 2xl:text-6xl flex gap-5 xl:gap-7 2xl:gap-12 text-white">
