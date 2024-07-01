@@ -51,6 +51,26 @@ function Projects() {
             </p>
           </div>
         </div>
+        <div className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline outline-2 outline-zinc-800 bg-black flex flex-col place-content-start">
+          <a href="https://thehelpinghands.vercel.app/">
+            <img
+              src="HelpingHands.png"
+              alt=""
+              className="w-full h-[20rem] md:h-[30rem] bg-zinc-800 rounded-xl object-cover"
+            />
+          </a>
+
+          <div className="px-5">
+            <h1 className="text-center text-2xl md:text-4xl 2xl:text-6xl font-bold py-2 2xl:py-6">
+              HelpingHands
+            </h1>
+            <p className="font-light text-justify lg:text-lg 2xl:text-3xl py-2 2xl:py-3">
+              Our goal is to simplify volunteer-NGO connections worldwide,
+              empowering individuals to find and engage with NGOs aligned with
+              their values, amplifying impact through meaningful collaboration.
+            </p>
+          </div>
+        </div>
       </div>
 
       <Footer />
