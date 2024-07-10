@@ -51,56 +51,60 @@ export default function Navbar() {
         </div>
       </div>
       {menuOpen && (
-        <div className="fixed inset-0 bg-zinc-800 bg-opacity-90 flex flex-col items-center justify-center text-white z-50">
+        <div className="fixed inset-0 bg-rose-600 bg-opacity-95 text-white z-50">
           <button
             className="absolute top-10 right-10 text-3xl"
             onClick={handleMenu}
           >
-            ✕
+            <span className="text-3xl font-black text-black hover:text-white">
+              ✕
+            </span>
           </button>
-          <a
-            href="/"
-            className="text-2xl mb-6 hover:text-rose-500"
-            onClick={handleMenu}
-          >
-            Home
-          </a>
-          <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" />
-          <br />
-          <a
-            href="/projects"
-            className="text-2xl mb-6 hover:text-rose-500"
-            onClick={handleMenu}
-          >
-            Projects
-          </a>
-          <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" />
-          <br />
-          <a
-            href="/music"
-            className="text-2xl mb-6 hover:text-rose-500"
-            onClick={handleMenu}
-          >
-            Music
-          </a>
-          <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" />
-          <br />
-          <a
-            href="/resume.pdf"
-            className="text-2xl mb-6 hover:text-rose-500"
-            onClick={handleMenu}
-          >
-            Resume
-          </a>
-          <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" />
-          <br />
-          <a
-            href="/contact"
-            className="text-2xl hover:text-rose-500"
-            onClick={handleMenu}
-          >
-            Contact
-          </a>
+          <div className="absolute text-right top-20 right-8">
+            <a
+              href="/"
+              className="text-3xl font-black hover:underline underline-offset-4 italic text-black hover:text-white"
+              onClick={handleMenu}
+            >
+              Home
+            </a>
+            {/* <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" /> */}
+            <br />
+            <a
+              href="/projects"
+              className="text-3xl font-bold hover:underline underline-offset-4 italic text-black hover:text-white"
+              onClick={handleMenu}
+            >
+              Projects
+            </a>
+            {/* <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" /> */}
+            <br />
+            <a
+              href="/music"
+              className="text-3xl font-bold hover:underline underline-offset-4 italic text-black hover:text-white"
+              onClick={handleMenu}
+            >
+              Music
+            </a>
+            {/* <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" /> */}
+            <br />
+            <a
+              href="/resume.pdf"
+              className="text-3xl font-bold hover:underline underline-offset-4 italic text-black hover:text-white"
+              onClick={handleMenu}
+            >
+              Resume
+            </a>
+            {/* <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" /> */}
+            <br />
+            <a
+              href="/contact"
+              className="text-3xl font-bold hover:underline underline-offset-4 italic text-black hover:text-white"
+              onClick={handleMenu}
+            >
+              Contact
+            </a>
+          </div>
         </div>
       )}
     </div>
