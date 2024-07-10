@@ -5,7 +5,7 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
-  SiFigma
+  SiFigma,
 } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 import { TbBrandReactNative } from "react-icons/tb";
@@ -16,6 +16,10 @@ import Navbar from "../components/navbar";
 import Projects from "../components/projects";
 
 export default function Home() {
+  const openProjects = () => {
+    window.open("/projects");
+  };
+
   return (
     <div className="text-white absolute w-full h-full">
       <Navbar />
@@ -28,9 +32,7 @@ export default function Home() {
             Vinayak Srivastava
           </h1>
           <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
-            <a
-              className="hover:text-black transition duration-700"
-            >
+            <a className="hover:text-black transition duration-700">
               Developer
             </a>{" "}
             |{" "}
@@ -41,11 +43,7 @@ export default function Home() {
               Musician
             </a>{" "}
             |{" "}
-            <a
-              className="hover:text-black transition duration-700"
-            >
-              Student
-            </a>
+            <a className="hover:text-black transition duration-700">Student</a>
           </p>
         </div>
       </div>
@@ -77,8 +75,8 @@ export default function Home() {
             a front-end developer.
             <br />
             <br />
-            Vinayak is disciplined, hard-working and has a hunger for knowledge, constantly
-            striving to improve himself every day.
+            Vinayak is disciplined, hard-working and has a hunger for knowledge,
+            constantly striving to improve himself every day.
             <br />
             <br />
             <a className="italic font-extralight bg-gradient-to-tr from-zinc-600 via-rose-600 to-zinc-600 text-transparent bg-clip-text">
@@ -87,10 +85,24 @@ export default function Home() {
             </a>
             <br />
             <br />
-            Being a part of <a className="italic">SRMKZILLA</a> has taught him how to be a team-player. It was also the starting point of Vinayak's coding journey. Vinayak loves to create beautiful and interactive UI and has worked on a few freelancing projects. Beyond coding, he enjoys sports and maintains a daily reading habit. He is adventurous and loves exploring new things.
+            Being a part of <a className="italic">SRMKZILLA</a> has taught him
+            how to be a team-player. It was also the starting point of Vinayak's
+            coding journey. Vinayak loves to create beautiful and interactive UI
+            and has worked on a few freelancing projects. Beyond coding, he
+            enjoys sports and maintains a daily reading habit. He is adventurous
+            and loves exploring new things.
             <br />
             <br />
-            Since the age of 8, music has been a significant part of Vinayak's life. He continues to practice and refine his musical skills. You can listen to his covers on his <a href="https://www.instagram.com/vinayakxmusix/" className="italic underline">Instagram</a> music page.
+            Since the age of 8, music has been a significant part of Vinayak's
+            life. He continues to practice and refine his musical skills. You
+            can listen to his covers on his{" "}
+            <a
+              href="https://www.instagram.com/vinayakxmusix/"
+              className="italic underline"
+            >
+              Instagram
+            </a>{" "}
+            music page.
           </h1>
         </div>
       </div>
@@ -131,7 +143,10 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col place-items-center place-content-center pt-32">
-        <div className="absolute h-52 w-52 md:h-[225px] md:w-[225px] bg-gradient-to-tl from-transparent via-rose-500 to-transparent transform duration-700 rounded-full flex place-content-center place-items-center">
+        <div
+          className="absolute h-52 w-52 md:h-[225px] md:w-[225px] bg-gradient-to-tl from-transparent via-rose-500 to-transparent transform duration-700 rounded-full flex place-content-center place-items-center"
+          onClick={openProjects}
+        >
           <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-rose-700 via-white to-rose-800 text-transparent bg-clip-text">
             Projects
           </h1>
@@ -154,6 +169,11 @@ export default function Home() {
             text={
               "Unbranded Boutique is a manufacturing brand based in USA. It helps upcoming skincare brands to grow their market"
             }
+          />
+          <Projects
+            heading="TheHelpingHand"
+            time="23.06.2024 - today"
+            text="HelpingHand is a platform designed to unite individuals who want to make a positive impact on society. It's ideal for those dedicated to preserving humanity and promoting goodwill."
           />
         </div>
       </div>

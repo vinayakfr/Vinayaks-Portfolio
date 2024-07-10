@@ -2,6 +2,14 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
 function Projects() {
+  const Unbranded = () => {
+    window.open("https://unbranded-boutique.vercel.app/", "_blank");
+  };
+
+  const TheHelpingHands = () => {
+    window.open("https://thehelpinghands.vercel.app/", "_blank");
+  };
+
   return (
     <div>
       <Navbar />
@@ -13,18 +21,18 @@ function Projects() {
           <img
             src="Mozofest.png"
             alt=""
-            className="w-full h-[20rem] md:h-[31rem] bg-zinc-800 rounded-xl object-fit hidden md:block"
+            className="w-full h-[20rem] md:h-[31rem] bg-zinc-800 rounded-xl object-fit hidden md:block cursor-pointer"
           />
           <img
             src="Mozofest2.png"
             alt=""
-            className="w-full h-[20rem] md:h-[31rem] bg-zinc-800 rounded-xl object-fit md:hidden"
+            className="w-full h-[20rem] md:h-[31rem] bg-zinc-800 rounded-xl object-fit md:hidden cursor-pointer"
           />
           <div className="px-5">
             <h1 className="text-center text-2xl md:text-4xl 2xl:text-6xl font-bold py-2 2xl:py-6">
               MOZOFEST'23
             </h1>
-            <p className="font-light text-justify lg:text-lg 2xl:text-3xl py-2 2xl:py-3">
+            <p className="text-center font-light lg:text-lg 2xl:text-3xl py-2 2xl:py-3">
               Mozofest is the flagship event of SRMKZILLA, the official Mozilla
               Campus Club at SRM University of Science and Technology, Chennai.
               This engaging event welcomes participants with all levels of
@@ -33,11 +41,14 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline outline-2 outline-zinc-800 bg-black flex flex-col place-content-start">
+        <div
+          className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline outline-2 outline-zinc-800 bg-black flex flex-col place-content-start"
+          onClick={Unbranded}
+        >
           <img
             src="Unbranded.png"
             alt=""
-            className="w-full h-[20rem] md:h-[30rem] bg-zinc-800 rounded-xl object-cover"
+            className="w-full h-[20rem] md:h-[30rem] bg-zinc-800 rounded-xl object-cover cursor-pointer"
           />
           <div className="px-5">
             <h1 className="text-center text-2xl md:text-4xl 2xl:text-6xl font-bold py-2 2xl:py-6">
@@ -51,7 +62,10 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline outline-2 outline-zinc-800 bg-black flex flex-col place-content-start">
+        <div
+          className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline outline-2 outline-zinc-800 bg-black flex flex-col place-content-start"
+          onClick={TheHelpingHands}
+        >
           <a href="https://thehelpinghands.vercel.app/">
             <img
               src="HelpingHands.png"
@@ -59,7 +73,6 @@ function Projects() {
               className="w-full h-[20rem] md:h-[30rem] bg-zinc-800 rounded-xl object-cover"
             />
           </a>
-
           <div className="px-5">
             <h1 className="text-center text-2xl md:text-4xl 2xl:text-6xl font-bold py-2 2xl:py-6">
               HelpingHands

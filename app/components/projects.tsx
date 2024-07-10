@@ -1,3 +1,4 @@
+import { Link } from "lucide-react";
 import { useRef } from "react";
 
 interface ProjectsProps {
