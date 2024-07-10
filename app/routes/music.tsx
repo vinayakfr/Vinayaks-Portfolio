@@ -44,43 +44,43 @@ export default function Music() {
               music class. And as you can all guess, my interest was nowhere
               near music when I first started my journey; at that time, I didn't
               even know my time with music would eventually become a{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
+              <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
                 journey.{" "}
-              </a>{" "}
+              </span>{" "}
               <br />
               My interest{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
+              <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
                 sparked{" "}
-              </a>{" "}
+              </span>{" "}
               My{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
+              <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
                 interest
-              </a>{" "}
+              </span>{" "}
               sparked when I met my new music teacher in 5th grade. It didn't
               take long for him to become one of the people I respect the most.
               In his presence, I became more and more{" "}
-              <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
+              <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">
                 fascinated{" "}
-              </a>
+              </span>
               with the subject and wanted to learn every instrument in the music
               room. Looking back, I believe it was never about the subject but
               the people I met through music and the memories I made.
               <br />
-              The first instrument I sincerely learned was the{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">tabla</a>. My mother
+              The first instrument I sincerely learned was the{" "} <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">tabla</span>. My mother
               enrolled me in tabla classes for one year, but gradually, I lost
-              interest. In{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">6th grade</a>, I became one of the{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">founding members</a> of my
+              interest. In{" "} <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">6th grade</span>, I became one of the{" "} <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">founding members</span> of my
               school's orchestra group, which was a pretty big deal for me. I
               used to love the stay-backs and the practices in between classes.
               It gave me a chance to skip some boring subjects, which were
               boring only because I got to do something that I loved. We
-              participated in{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">Zonal Level Orhestra Competitions{" "}</a>but never won;
+              participated in{" "} <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">Zonal Level Orhestra Competitions{" "}</span>but never won;
               we were either placed in 2nd or 3rd position. In 8th grade, I
               started developing an interest in stringed instruments, so I
-              joined my music teacher's school. I was a{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse"> "quick learner,"</a> as my
+              joined my music teacher's school. I was a{" "} <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse"> "quick learner,"</span> as my
               teacher would say. I took my first music exam and passed with
               merit from Trinity College of Music, London. After changing
               schools in 11th grade, I joined my new school's orchestra team.
-              This time, we won the{" "} <a className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">Zonal Level Orchestra Competition.</a>
+              This time, we won the{" "} <span className="bg-gradient-to-tr from-zinc-400 via-rose-600 to-zinc-400 text-transparent bg-clip-text animate-pulse">Zonal Level Orchestra Competition.</span>
             </h1>
           </div>
         </div>

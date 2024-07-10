@@ -90,7 +90,7 @@ export default function Home() {
             Being a part of <a className="italic">SRMKZILLA</a> has taught him how to be a team-player. It was also the starting point of Vinayak's coding journey. Vinayak loves to create beautiful and interactive UI and has worked on a few freelancing projects. Beyond coding, he enjoys sports and maintains a daily reading habit. He is adventurous and loves exploring new things.
             <br />
             <br />
-            Since the age of 8, music has been a significant part of Vinayak's life. He continues to practice and refine his musical skills. You can listen to his covers on his <a href="" className="italic underline">Instagram</a> music page.
+            Since the age of 8, music has been a significant part of Vinayak's life. He continues to practice and refine his musical skills. You can listen to his covers on his <a href="https://www.instagram.com/vinayakxmusix/" className="italic underline">Instagram</a> music page.
           </h1>
         </div>
       </div>
