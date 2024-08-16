@@ -6,8 +6,8 @@ function Projects() {
     window.open("https://unbranded-boutique.vercel.app/", "_blank");
   };
 
-  const TheHelpingHands = () => {
-    window.open("https://thehelpinghands.vercel.app/", "_blank");
+  const TheBridge = () => {
+    window.open("https://thecloud.vercel.app/", "_blank");
   };
 
   return (
@@ -64,18 +64,18 @@ function Projects() {
         </div>
         <div
           className="h-[35rem] w-[70%] md:h-[40rem] 2xl:h-[50rem] 2xl:w-[50%] rounded-xl outline outline-2 outline-zinc-800 bg-black flex flex-col place-content-start"
-          onClick={TheHelpingHands}
+          onClick={TheBridge}
         >
-          <a href="https://thehelpinghands.vercel.app/">
+          <a href="https://thecloud.vercel.app/">
             <img
-              src="HelpingHands.png"
+              src="TheBridge.png"
               alt=""
-              className="w-full h-[20rem] md:h-[30rem] bg-zinc-800 rounded-xl object-cover"
+              className="w-full h-[20rem] md:h-[30rem] bg-zinc-800 rounded-xl object-cover  top-1/3 right 1/4 place-items-center"
             />
           </a>
           <div className="px-5">
             <h1 className="text-center text-2xl md:text-4xl 2xl:text-6xl font-bold py-2 2xl:py-6">
-              HelpingHands
+              TheBridge
             </h1>
             <p className="font-light text-justify lg:text-lg 2xl:text-3xl py-2 2xl:py-3">
               Our goal is to simplify volunteer-NGO connections worldwide,

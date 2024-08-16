@@ -171,9 +171,9 @@ export default function Home() {
             }
           />
           <Projects
-            heading="TheHelpingHand"
+            heading="TheBridge"
             time="23.06.2024 - today"
-            text="HelpingHand is a platform designed to unite individuals who want to make a positive impact on society. It's ideal for those dedicated to preserving humanity and promoting goodwill."
+            text="TheBridge is a platform designed to unite individuals who want to make a positive impact on society. It's ideal for those dedicated to preserving humanity and promoting goodwill."
           />
         </div>
       </div>
