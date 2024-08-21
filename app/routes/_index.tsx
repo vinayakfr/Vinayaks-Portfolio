@@ -174,16 +174,20 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col place-items-center place-content-center pt-32">
-        <div
-          className="absolute h-52 w-52 md:h-[225px] md:w-[225px] bg-gradient-to-tl from-transparent via-rose-500 to-transparent transform duration-700 rounded-full flex place-content-center place-items-center"
-          onClick={openProjects}
-        >
-          <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-rose-700 via-white to-rose-800 text-transparent bg-clip-text">
-            Projects
-          </h1>
+        <div className="flex justify-center items-center">
+          <div
+            className="absolute h-52 w-52 md:h-[225px] md:w-[225px] bg-gradient-to-tl from-transparent via-rose-500 to-transparent transform duration-700 rounded-full flex place-content-center place-items-center"
+            onClick={openProjects}
+          >
+            <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-rose-700 via-white to-rose-800 text-transparent bg-clip-text">
+              Projects
+            </h1>
+          </div>
+          <div className="-animate-circle-loop">
+            <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-transparent to-rose-500 translate-x-24 translate-y-36 md:translate-x-[90px] md:translate-y-[160px] rounded-full relative"></div>
+            <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-transparent to-rose-500 -translate-x-24 -translate-y-36 md:-translate-x-[90px] md:-translate-y-[155px] rounded-full relative"></div>
+          </div>
         </div>
-        <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-transparent to-rose-500 translate-x-24 translate-y-36 md:translate-x-[90px] md:translate-y-[160px] rounded-full"></div>
-        <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-transparent to-rose-500 -translate-x-24 -translate-y-36 md:-translate-x-[90px] md:-translate-y-[155px] rounded-full"></div>
       </div>
       <div className="flex place-content-center place-items-center p-12">
         <div className="flex gap-10 overflow-auto pt-10">

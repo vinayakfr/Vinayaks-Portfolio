@@ -30,6 +30,10 @@ module.exports = {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(360deg)' },
         },
+        "-circle-loop": {
+          '0%': { transform: 'rotate(360deg)' },
+          '100%': { transform: 'rotate(0deg)' },
+        },
         "bounce": {
           '0%': {
             transform: 'translateY(0%)'
@@ -53,6 +57,7 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "circle-loop": "circle-loop 8s linear infinite",
+        "-circle-loop": "-circle-loop 8s linear infinite",
         "bounce": "bounce 2s infinite ease-in-out"
       },
     },
