@@ -108,36 +108,67 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col place-items-center gap-14 mt-28">
-        <div className="h-44 w-44 md:h-[200px] md:w-[200px] bg-gradient-to-tr from-transparent via-rose-500 to-transparent transform duration-700 rounded-full py-14 text-6xl flex place-content-center place-items-center ">
-          <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-rose-800 via-zinc-800 to-rose-800 text-transparent bg-clip-text">
-            Skills
-          </h1>
+        <div className="flex justify-center items-center">
+          <div className="h-40 w-40 md:h-[200px] md:w-[200px] bg-gradient-to-tr from-transparent via-rose-500 to-transparent transform duration-700 rounded-full py-14 text-6xl flex place-content-center place-items-center absolute">
+            <h1 className="font-medium text-7xl xl:text-8xl bg-gradient-to-br from-rose-800 via-zinc-800 to-rose-800 text-transparent bg-clip-text animate-none">
+              Skills
+            </h1>
+          </div>
+          <div className="animate-circle-loop">
+            <div className="flex justify-between w-full gap-32">
+              <div className="h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-transparent to-rose-500 transform duration-700 rounded-full relative"></div>
+              <div className="h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-rose-500 to-transparent transform duration-700 rounded-full relative"></div>
+            </div>
+          </div>
         </div>
-        <div className="absolute h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-transparent to-rose-500 transform duration-700 translate-x-20 -translate-y-6 md:translate-x-[100px] md:-translate-y-[50px] rounded-full"></div>
-        <div className="absolute h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-rose-500 to-transparent transform duration-700 -translate-x-24 translate-y-28 md:-translate-x-[105px] md:translate-y-[7.5rem] rounded-full"></div>
+
         <div className="md:hidden">
-          <div className="grid grid-rows-3 grid-cols-3 gap-x-20 gap-y-16 md:gap-x-28 md:gap-y-20 justify-between pt-3">
-            <SiJavascript size={50} color="zinc" />
-            <SiTypescript size={50} color="zinc" />
-            <SiPython size={50} color="zinc" />
-            <SiHtml5 size={50} color="zinc" />
-            <SiTailwindcss size={50} color="zinc" />
-            <SiReact size={50} color="zinc" />
-            <SiFigma size={50} color="zinc" />
-            <TbBrandCpp size={50} color="zinc" />
-            <TbBrandReactNative size={50} color="zinc" />
+          <div className="grid grid-rows-3 grid-cols-3 gap-x-20 gap-y-16 md:gap-x-28 md:gap-y-20 justify-between pt-20">
+            <SiJavascript size={50} color="zinc" className="animate-bounce" />
+            <SiTypescript size={50} color="zinc" className="animate-bounce" />
+            <SiPython size={50} color="zinc" className="animate-bounce" />
+            <SiHtml5 size={50} color="zinc" className="animate-bounce" />
+            <SiTailwindcss size={50} color="zinc" className="animate-bounce" />
+            <SiReact size={50} color="zinc" className="animate-bounce" />
+            <SiFigma size={50} color="zinc" className="animate-bounce" />
+            <TbBrandCpp size={50} color="zinc" className="animate-bounce" />
+            <TbBrandReactNative
+              size={50}
+              color="zinc"
+              className="animate-bounce"
+            />
           </div>
         </div>
         <div className="hidden md:block">
-          <div className="grid grid-rows-2 grid-cols-4 gap-x-36 gap-y-24 justify-between pt-10">
-            <SiJavascript size={75} color="zinc" />
-            <SiTypescript size={75} color="zinc" />
-            <SiPython size={75} color="zinc" />
-            <SiHtml5 size={75} color="zinc" />
-            <SiTailwindcss size={75} color="zinc" />
-            <SiReact size={75} color="zinc" />
-            <TbBrandCpp size={75} color="zinc" />
-            <TbBrandReactNative size={75} color="zinc" />
+          <div className="grid grid-rows-2 grid-cols-4 gap-x-36 gap-y-24 justify-between pt-20">
+            <SiJavascript
+              size={75}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+            <SiTypescript
+              size={75}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+            <SiPython size={75} color="zinc" className="hover:animate-bounce" />
+            <SiHtml5 size={75} color="zinc" className="hover:animate-bounce" />
+            <SiTailwindcss
+              size={75}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+            <SiReact size={75} color="zinc" className="hover:animate-bounce" />
+            <TbBrandCpp
+              size={75}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+            <TbBrandReactNative
+              size={75}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
           </div>
         </div>
       </div>
