@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="text-white absolute w-full h-full">
       <Navbar />
-      <div className="flex place-content-center place-items-center pt-28 md:pt-40 lg:pt-[22.5rem] 2xl:pt-[35rem]">
+      <div className="flex place-content-center place-items-center pt-28 md:pt-52 lg:pt-[22.5rem] 2xl:pt-[40rem]">
         <div className="flex place-content-center place-items-center">
           <Background />
         </div>
@@ -47,14 +47,14 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="pt-40 md:pt-64 lg:pt-[27.5rem] 2xl:pt-[45rem] flex flex-col place-content-center place-items-center">
+      <div className="pt-40 md:pt-64 lg:pt-[27.5rem] 2xl:pt-[50rem] flex flex-col place-content-center place-items-center">
         <h1 className="font-extrabold text-[2.45rem] md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-[9rem] text-center bg-gradient-to-tr from-zinc-950 via-rose-600 to-zinc-950 text-transparent bg-clip-text">
           About Me
         </h1>
         <img
           src="profile.jpg"
           alt=""
-          className="h-[25rem] md:h-[30rem] animate-disfigure my-7 border-8 object-cover border-rose-700 bg-rose-500"
+          className="h-[25rem] md:h-[30rem] 2xl:h-[45rem] animate-disfigure my-7 border-8 object-cover border-rose-700 bg-rose-500"
         />
         <div className="bg-zinc-800 h-max w-[90%] rounded-2xl mt-5 p-5">
           <p className="text-center xl:text-2xl 2xl:text-5xl font-medium">
@@ -112,17 +112,17 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col place-items-center gap-14 mt-28">
+      <div className="flex flex-col place-items-center gap-14 mt-28 2xl:mt-56">
         <div className="flex justify-center items-center">
-          <div className="h-40 w-40 md:h-[200px] md:w-[200px] bg-gradient-to-tr from-transparent via-rose-500 to-transparent transform duration-700 rounded-full py-14 text-6xl flex place-content-center place-items-center absolute">
-            <h1 className="font-medium text-7xl xl:text-8xl bg-gradient-to-br from-rose-800 via-zinc-800 to-rose-800 text-transparent bg-clip-text animate-none">
+          <div className="h-40 w-40 md:h-[200px] md:w-[200px] 2xl:h-[20rem] 2xl:w-[20rem] bg-gradient-to-tr from-transparent via-rose-500 to-transparent transform duration-700 rounded-full py-14 text-6xl flex place-content-center place-items-center absolute">
+            <h1 className="font-medium text-7xl xl:text-8xl 2xl:text-[10rem] bg-gradient-to-br from-rose-800 via-zinc-800 to-rose-800 text-transparent bg-clip-text animate-none">
               Skills
             </h1>
           </div>
           <div className="animate-circle-loop">
-            <div className="flex justify-between w-full gap-32">
-              <div className="h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-transparent to-rose-500 transform duration-700 rounded-full relative"></div>
-              <div className="h-20 w-20 md:h-[120px] md:w-[120px] bg-gradient-to-tr from-rose-500 to-transparent transform duration-700 rounded-full relative"></div>
+            <div className="flex justify-between w-full gap-32 2xl:gap-56">
+              <div className="h-20 w-20 md:h-[120px] md:w-[120px] 2xl:h-[7rem] 2xl:w-[7rem] bg-gradient-to-tr from-transparent to-rose-500 transform duration-700 rounded-full relative"></div>
+              <div className="h-20 w-20 md:h-[120px] md:w-[120px] 2xl:h-[7rem] 2xl:w-[7rem] bg-gradient-to-tr from-rose-500 to-transparent transform duration-700 rounded-full relative"></div>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:block 2xl:hidden">
           <div className="grid grid-rows-2 grid-cols-4 gap-x-36 gap-y-24 justify-between pt-20">
             <SiJavascript
               size={75}
@@ -176,25 +176,63 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="hidden 2xl:block">
+          <div className="grid grid-rows-2 grid-cols-4 gap-x-36 gap-y-24 justify-between pt-40">
+            <SiJavascript
+              size={125}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+            <SiTypescript
+              size={125}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+            <SiPython
+              size={125}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+            <SiHtml5 size={125} color="zinc" className="hover:animate-bounce" />
+            <SiTailwindcss
+              size={125}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+            <SiReact size={125} color="zinc" className="hover:animate-bounce" />
+            <TbBrandCpp
+              size={125}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+            <TbBrandReactNative
+              size={125}
+              color="zinc"
+              className="hover:animate-bounce"
+            />
+          </div>
+        </div>
       </div>
 
-      <div className="flex flex-col place-items-center place-content-center pt-32">
+      <div className="flex flex-col place-items-center place-content-center mt-32 2xl:mt-56">
         <div className="flex justify-center items-center">
           <div
-            className="absolute h-52 w-52 md:h-[225px] md:w-[225px] bg-gradient-to-tl from-transparent via-rose-500 to-transparent transform duration-700 rounded-full flex place-content-center place-items-center"
+            className="absolute h-52 w-52 md:h-[225px] md:w-[225px] 2xl:h-[25rem] 2xl:w-[25rem] bg-gradient-to-tl from-transparent via-rose-500 to-transparent transform duration-700 rounded-full flex place-content-center place-items-center"
             onClick={openProjects}
           >
-            <h1 className="font-medium text-6xl xl:text-8xl bg-gradient-to-br from-rose-700 via-white to-rose-800 text-transparent bg-clip-text">
+            <h1 className="font-medium text-6xl xl:text-8xl 2xl:text-[9rem] bg-gradient-to-br from-rose-700 via-white to-rose-800 text-transparent bg-clip-text">
               Projects
             </h1>
           </div>
           <div className="-animate-circle-loop">
-            <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-transparent to-rose-500 translate-x-24 translate-y-36 md:translate-x-[90px] md:translate-y-[160px] rounded-full relative"></div>
-            <div className="h-24 w-24 md:h-[120px] md:w-[120px] bg-gradient-to-tl from-transparent to-rose-500 -translate-x-24 -translate-y-36 md:-translate-x-[90px] md:-translate-y-[155px] rounded-full relative"></div>
+            <div className="flex justify-between w-full gap-32 2xl:gap-72">
+              <div className="h-24 w-24 md:h-[120px] md:w-[120px] 2xl:h-[10rem] 2xl:w-[10rem] bg-gradient-to-tl from-transparent to-rose-500 translate-x-24 translate-y-36 md:translate-x-[90px] md:translate-y-[160px] rounded-full relative"></div>
+              <div className="h-24 w-24 md:h-[120px] md:w-[120px] 2xl:h-[10rem] 2xl:w-[10rem] bg-gradient-to-tl from-transparent to-rose-500 -translate-x-24 -translate-y-36 md:-translate-x-[90px] md:-translate-y-[155px] rounded-full relative"></div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex place-content-center place-items-center p-12">
+      <div className="flex place-content-center place-items-center pt-12 2xl:pt-52">
         <div className="flex gap-10 overflow-auto pt-10">
           <Projects
             heading={"MOZOFEST 24'"}

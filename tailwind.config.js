@@ -104,7 +104,39 @@ module.exports = {
             transform: "translate(-100%, -100%)",
           },
           "100%": {
-            transform: "translate(-80%, -250%)",
+            transform: "translate(-65%, -250%)",
+          },
+        },
+        "tr": {
+          "0%": {
+            transform: "translate(200%, -100%)",
+          },
+          "100%": {
+            transform: "translate(65%, -45%)",
+          },
+        },
+        "tl": {
+          "0%": {
+            transform: "translate(-200%, -250%)",
+          },
+          "100%": {
+            transform: "translate(-65%, -135%)",
+          },
+        },
+        "br": {
+          "0%": {
+            transform: "translate(200%, -100%)",
+          },
+          "100%": {
+            transform: "translate(100%, -150%)",
+          },
+        },
+        "bl": {
+          "0%": {
+            transform: "translate(-100%, -100%)",
+          },
+          "100%": {
+            transform: "translate(-65%, -250%)",
           },
         },
       },
@@ -119,6 +151,10 @@ module.exports = {
         "top-left-entry": "top-left-entry 3s forwards alternate",
         "bottom-left-entry": "bottom-left-entry 3s forwards alternate",
         "bottom-right-entry": "bottom-right-entry 3s forwards alternate",
+        "tr": "tr 3s forwards alternate",
+        "tl": "tl 3s forwards alternate",
+        "br": "br 3s forwards alternate",
+        "bl": "bl 3s forwards alternate",
       },
     },
   },
