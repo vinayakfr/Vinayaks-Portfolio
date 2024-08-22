@@ -51,7 +51,11 @@ export default function Home() {
         <h1 className="font-extrabold text-[2.45rem] md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-[9rem] text-center bg-gradient-to-tr from-zinc-950 via-rose-600 to-zinc-950 text-transparent bg-clip-text">
           About Me
         </h1>
-        <img src="profile.jpg" alt="" className="md:h-[30rem] animate-disfigure my-7 border-8 object-cover border-rose-700 bg-rose-500"/>
+        <img
+          src="profile.jpg"
+          alt=""
+          className="h-[25rem] md:h-[30rem] animate-disfigure my-7 border-8 object-cover border-rose-700 bg-rose-500"
+        />
         <div className="bg-zinc-800 h-max w-[90%] rounded-2xl mt-5 p-5">
           <p className="text-center xl:text-2xl 2xl:text-5xl font-medium">
             I am an engineering student with a passion for music, currently
@@ -210,6 +214,13 @@ export default function Home() {
             heading="TheBridge"
             time="23.06.2024 - today"
             text="TheBridge is a platform designed to unite individuals who want to make a positive impact on society. It's ideal for those dedicated to preserving humanity and promoting goodwill."
+          />
+          <Projects
+            heading={"NoCluePortfolios"}
+            time={"15.08.2024 - present"}
+            text={
+              "Grab your own personal portfolios and plant your flag on the internet"
+            }
           />
         </div>
       </div>

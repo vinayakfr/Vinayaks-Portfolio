@@ -1,3 +1,5 @@
+const { transform } = require('typescript');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -35,21 +37,16 @@ module.exports = {
           "100%": { transform: "rotate(0deg)" },
         },
         "bounce": {
-          "0%": {
-            transform: "translateY(0%)",
-          },
           "25%": {
-            transform: "translateY(15%)",
-          },
-          "50%": {
-            transform: "translateY(-15%)",
+            transform: "translateY(0px)",
           },
           "75%": {
-            transform: "translateY(15%)",
+          },
+          "90%": {
+            transform: "",
           },
           "100%": {
-            transform: "translateY(-15%)",
-            easing: "ease-in-out",
+            transform: "translateY(320px)",
           },
         },
         "disfigure": {
@@ -78,14 +75,50 @@ module.exports = {
             borderBottomRightRadius: "70%",
           },
         },
+        "top-right-entry": {
+          "0%": {
+            transform: "translate(200%, -100%)",
+          },
+          "100%": {
+            transform: "translate(100%, -50%)",
+          },
+        },
+        "top-left-entry": {
+          "0%": {
+            transform: "translate(-200%, -250%)",
+          },
+          "100%": {
+            transform: "translate(-65%, -125%)",
+          },
+        },
+        "bottom-right-entry": {
+          "0%": {
+            transform: "translate(200%, -100%)",
+          },
+          "100%": {
+            transform: "translate(100%, -135%)",
+          },
+        },
+        "bottom-left-entry": {
+          "0%": {
+            transform: "translate(-100%, -100%)",
+          },
+          "100%": {
+            transform: "translate(-80%, -250%)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "circle-loop": "circle-loop 8s linear infinite",
         "-circle-loop": "-circle-loop 8s linear infinite",
-        "bounce": "bounce 2s infinite ease-in-out",
-        "disfigure": "disfigure 5s infinite alternate"
+        "bounce": "bounce 4s infinite ease-in-out",
+        "disfigure": "disfigure 5s infinite alternate",
+        "top-right-entry": "top-right-entry 3s forwards alternate",
+        "top-left-entry": "top-left-entry 3s forwards alternate",
+        "bottom-left-entry": "bottom-left-entry 3s forwards alternate",
+        "bottom-right-entry": "bottom-right-entry 3s forwards alternate",
       },
     },
   },
