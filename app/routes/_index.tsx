@@ -217,28 +217,28 @@ export default function Home() {
       <div className="flex flex-col place-items-center place-content-center mt-32 2xl:mt-56">
         <div className="flex justify-center items-center">
           <div
-            className="absolute h-52 w-52 md:h-[225px] md:w-[225px] 2xl:h-[25rem] 2xl:w-[25rem] bg-gradient-to-tl from-transparent via-rose-500 to-transparent transform duration-700 rounded-full flex place-content-center place-items-center"
+            className="absolute h-48 w-48 md:h-[225px] md:w-[225px] 2xl:h-[25rem] 2xl:w-[25rem] bg-gradient-to-tl from-transparent via-rose-500 to-transparent transform duration-700 rounded-full flex place-content-center place-items-center"
             onClick={openProjects}
           >
-            <h1 className="font-medium text-6xl xl:text-8xl 2xl:text-[9rem] bg-gradient-to-br from-rose-700 via-white to-rose-800 text-transparent bg-clip-text">
+            <h1 className="font-medium text-7xl xl:text-8xl 2xl:text-[9rem] bg-gradient-to-br from-rose-700 via-white to-rose-800 text-transparent bg-clip-text">
               Projects
             </h1>
           </div>
           <div className="-animate-circle-loop">
-            <div className="flex justify-between w-full gap-32 2xl:gap-72">
-              <div className="h-24 w-24 md:h-[120px] md:w-[120px] 2xl:h-[10rem] 2xl:w-[10rem] bg-gradient-to-tl from-transparent to-rose-500 translate-x-24 translate-y-36 md:translate-x-[90px] md:translate-y-[160px] rounded-full relative"></div>
-              <div className="h-24 w-24 md:h-[120px] md:w-[120px] 2xl:h-[10rem] 2xl:w-[10rem] bg-gradient-to-tl from-transparent to-rose-500 -translate-x-24 -translate-y-36 md:-translate-x-[90px] md:-translate-y-[155px] rounded-full relative"></div>
+            <div className="flex justify-between w-full gap-32 2xl:gap-56 ">
+              <div className="h-20 w-20 md:h-[120px] md:w-[120px] 2xl:h-[7rem] 2xl:w-[7rem] bg-gradient-to-tr from-transparent to-rose-500 transform duration-700 rounded-full relative"></div>
+              <div className="h-20 w-20 md:h-[120px] md:w-[120px] 2xl:h-[7rem] 2xl:w-[7rem] bg-gradient-to-tr from-rose-500 to-transparent transform duration-700 rounded-full relative"></div>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex place-content-center place-items-center pt-12 2xl:pt-52">
-        <div className="flex gap-10 overflow-auto pt-10">
+      <div className="flex place-content-center place-items-center pt-32 2xl:pt-52">
+        <div className="flex gap-10 overflow-auto p-10">
           <Projects
             heading={"MOZOFEST 24'"}
             time={"15.02.2024 - 01.04.2024"}
             text={
-              "Mozofest is a flagship event of SRMKZILLA which is the official Mozilla Learning Campus Club at SRMIST. Helped in the gront-end portion of Mozofest."
+              "Contributed to the front-end development for Mozofest, the flagship event of SRMKZILLA, SRMIST's official Mozilla Learning Campus Club."
             }
           />
           <Projects
@@ -251,7 +251,7 @@ export default function Home() {
           <Projects
             heading="TheBridge"
             time="23.06.2024 - today"
-            text="TheBridge is a platform designed to unite individuals who want to make a positive impact on society. It's ideal for those dedicated to preserving humanity and promoting goodwill."
+            text="TheBridge is a platform that connects people dedicated to making a positive impact and promoting goodwill."
           />
           <Projects
             heading={"NoCluePortfolios"}
