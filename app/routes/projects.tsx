@@ -92,7 +92,12 @@ function Projects() {
             <img
               src="NoClue.png"
               alt=""
-              className="w-full h-[20rem] md:h-[30rem] bg-zinc-800 rounded-xl object-cover  top-1/3 right 1/4 place-items-center"
+              className="hidden lg:block w-full h-[20rem] md:h-[30rem] bg-zinc-800 rounded-xl object-cover  top-1/3 right 1/4 place-items-center"
+            />
+            <img
+              src="NoClue2.png"
+              alt=""
+              className="lg:hidden w-full h-[20rem] md:h-[30rem] bg-zinc-800 rounded-xl object-cover  top-1/3 right 1/4 place-items-center"
             />
           </a>
           <div className="px-5">
