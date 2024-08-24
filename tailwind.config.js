@@ -77,7 +77,7 @@ module.exports = {
         },
         "top-right-entry": {
           "0%": {
-            transform: "translate(200%, -100%)",
+            transform: "translate(235%, -200%)",
           },
           "100%": {
             transform: "translate(100%, -50%)",
