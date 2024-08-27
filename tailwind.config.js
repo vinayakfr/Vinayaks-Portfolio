@@ -93,7 +93,7 @@ module.exports = {
         },
         "bottom-right-entry": {
           "0%": {
-            transform: "translate(200%, -100%)",
+            transform: "translate(275%, -75%)",
           },
           "100%": {
             transform: "translate(100%, -135%)",
@@ -101,7 +101,7 @@ module.exports = {
         },
         "bottom-left-entry": {
           "0%": {
-            transform: "translate(-100%, -100%)",
+            transform: "translate(-225%, -100%)",
           },
           "100%": {
             transform: "translate(-65%, -250%)",
