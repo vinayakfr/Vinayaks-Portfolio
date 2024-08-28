@@ -1,5 +1,3 @@
-const { transform } = require('typescript');
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -40,8 +38,7 @@ module.exports = {
           "25%": {
             transform: "translateY(0px)",
           },
-          "75%": {
-          },
+          "75%": {},
           "90%": {
             transform: "",
           },
@@ -139,6 +136,15 @@ module.exports = {
             transform: "translate(-65%, -250%)",
           },
         },
+        "flap": {
+          "0%": {
+            "transform": "rotateY(45deg)"
+          },
+          "100%": {
+            "transform": "rotateY(-45deg)"
+          }
+        }
+        
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -155,6 +161,7 @@ module.exports = {
         "tl": "tl 3s forwards alternate",
         "br": "br 3s forwards alternate",
         "bl": "bl 3s forwards alternate",
+        "flap": "flap 500ms ease-in-out infinite;",
       },
     },
   },
