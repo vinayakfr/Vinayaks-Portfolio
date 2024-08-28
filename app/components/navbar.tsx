@@ -1,18 +1,24 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { useLocation } from "react-router-dom"; // Import useLocation
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation(); // Get the current location
 
   function handleMenu() {
     setMenuOpen(!menuOpen);
   }
 
+  const isActive = (path: any) => location.pathname === path;
+
   return (
     <div className="relative flex justify-between items-center p-10 2xl:p-20">
       <a
         href="/"
-        className="text-xl md:text-xl xl:text-3xl 2xl:text-6xl text-white hover:text-rose-500"
+        className={`text-xl md:text-xl xl:text-3xl 2xl:text-6xl text-white hover:text-rose-500 ${
+          isActive("/") ? "border-b-2 border-rose-500" : ""
+        }`}
       >
         VS
       </a>
@@ -21,30 +27,43 @@ export default function Navbar() {
       </button>
       <div className="hidden sm:block">
         <div className="md:text-xl xl:text-3xl 2xl:text-6xl flex gap-5 xl:gap-7 2xl:gap-12 text-white">
-          <a href="/" className="hover:text-rose-500 transform duration-700">
+          <a
+            href="/"
+            className={`hover:text-rose-500 transform duration-700 ${
+              isActive("/") ? "border-b-2 border-rose-500" : ""
+            }`}
+          >
             Home
           </a>
           <a
             href="/projects"
-            className="hover:text-rose-500 transform duration-700"
+            className={`hover:text-rose-500 transform duration-700 ${
+              isActive("/projects") ? "border-b-2 border-rose-500" : ""
+            }`}
           >
             Projects
           </a>
           <a
             href="/resume.pdf"
-            className="hover:text-rose-500 transform duration-700"
+            className={`hover:text-rose-500 transform duration-700 ${
+              isActive("/resume.pdf") ? "border-b-2 border-rose-500" : ""
+            }`}
           >
             Resume
           </a>
           <a
             href="/music"
-            className="hover:text-rose-500 transform duration-700"
+            className={`hover:text-rose-500 transform duration-700 ${
+              isActive("/music") ? "border-b-2 border-rose-500" : ""
+            }`}
           >
             Music
           </a>
           <a
             href="/contact"
-            className="hover:text-rose-500 transform duration-700"
+            className={`hover:text-rose-500 transform duration-700 ${
+              isActive("/contact") ? "border-b-2 border-rose-500" : ""
+            }`}
           >
             Contact
           </a>
@@ -63,43 +82,59 @@ export default function Navbar() {
           <div className="absolute text-right top-20 right-8">
             <a
               href="/"
-              className="text-3xl font-black hover:underline underline-offset-4 italic text-black hover:text-white"
+              className={`text-3xl font-black hover:underline underline-offset-4 italic ${
+                isActive("/")
+                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  : "text-black hover:text-white"
+              }`}
               onClick={handleMenu}
             >
               Home
             </a>
-            {/* <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" /> */}
             <br />
             <a
               href="/projects"
-              className="text-3xl font-bold hover:underline underline-offset-4 italic text-black hover:text-white"
+              className={`text-3xl font-bold hover:underline underline-offset-4 italic ${
+                isActive("/projects")
+                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  : "text-black hover:text-white"
+              }`}
               onClick={handleMenu}
             >
               Projects
             </a>
-            {/* <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" /> */}
             <br />
             <a
               href="/music"
-              className="text-3xl font-bold hover:underline underline-offset-4 italic text-black hover:text-white"
+              className={`text-3xl font-bold hover:underline underline-offset-4 italic ${
+                isActive("/music")
+                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  : "text-black hover:text-white"
+              }`}
               onClick={handleMenu}
             >
               Music
             </a>
-            {/* <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" /> */}
             <br />
             <a
               href="/resume.pdf"
-              className="text-3xl font-bold hover:underline underline-offset-4 italic text-black hover:text-white"
+              className={`text-3xl font-bold hover:underline underline-offset-4 italic ${
+                isActive("/resume.pdf")
+                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  : "text-black hover:text-white"
+              }`}
               onClick={handleMenu}
             >
               Resume
             </a>
-            {/* <hr className="h-[0.2rem] w-16 bg-gradient-to-r from-zinc-800 to-rose-500" /> */}
             <br />
             <a
               href="/contact"
-              className="text-3xl font-bold hover:underline underline-offset-4 italic text-black hover:text-white"
+              className={`text-3xl font-bold hover:underline underline-offset-4 italic ${
+                isActive("/contact")
+                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  : "text-black hover:text-white"
+              }`}
               onClick={handleMenu}
             >
               Contact

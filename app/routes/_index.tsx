@@ -65,12 +65,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div>
-        <h1 className="text-center font-extrabold py-10 px-[0.7rem] xl:text-7xl 2xl:text-8xl text-4xl 2xl:p-20 bg-gradient-to-tr from-rose-700 via-white to-rose-700 text-transparent bg-clip-text">
-          With great powers come great responsibility
-        </h1>
-      </div>
-      <div className="flex place-content-center place-items-center">
+      <div className="flex place-content-center place-items-center pt-10">
         <div className="h-auto w-[90%] bg-zinc-950 rounded-xl p-4">
           <h1 className="text-left text-2xl px-2 md:text-3xl 2xl:text-5xl leading-snug font-extralight 2xl:font-thin text-white">
             Since an early age, Vinayak has been interested in computer science
@@ -112,7 +107,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col place-items-center gap-14 mt-28 2xl:mt-56">
+      <div className="flex flex-col place-items-center gap-14 my-40 2xl:mt-56">
         <div className="flex justify-center items-center">
           <div className="h-40 w-40 md:h-[200px] md:w-[200px] 2xl:h-[20rem] 2xl:w-[20rem] bg-gradient-to-tr from-transparent via-rose-500 to-transparent transform duration-700 rounded-full py-14 text-6xl flex place-content-center place-items-center absolute">
             <h1 className="font-medium text-7xl xl:text-8xl 2xl:text-[10rem] bg-gradient-to-br from-rose-800 via-zinc-800 to-rose-800 text-transparent bg-clip-text animate-none">
@@ -261,9 +256,6 @@ export default function Home() {
             }
           />
         </div>
-      </div>
-      <div className="flex place-content-center pt-10 md:pt-16 md:-translate-y-24">
-        <Devcard />
       </div>
       <div>
         <Footer />
