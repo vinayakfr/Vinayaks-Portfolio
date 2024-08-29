@@ -122,7 +122,7 @@ module.exports = {
         },
         "br": {
           "0%": {
-            transform: "translate(200%, -100%)",
+            transform: "translate(250%, -100%)",
           },
           "100%": {
             transform: "translate(100%, -150%)",
@@ -130,7 +130,7 @@ module.exports = {
         },
         "bl": {
           "0%": {
-            transform: "translate(-100%, -100%)",
+            transform: "translate(-200%, -125%)",
           },
           "100%": {
             transform: "translate(-65%, -250%)",

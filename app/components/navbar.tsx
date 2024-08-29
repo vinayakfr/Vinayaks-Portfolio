@@ -79,12 +79,12 @@ export default function Navbar() {
               ✕
             </span>
           </button>
-          <div className="absolute text-right top-20 right-8">
+          <div className="absolute flex flex-col text-right top-20 right-8 -space-y-4">
             <a
               href="/"
-              className={`text-3xl font-black hover:underline underline-offset-4 italic ${
+              className={`text-3xl font-black ${
                 isActive("/")
-                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  ? "bg-white text-rose-600 rounded-full p-2"
                   : "text-black hover:text-white"
               }`}
               onClick={handleMenu}
@@ -94,9 +94,9 @@ export default function Navbar() {
             <br />
             <a
               href="/projects"
-              className={`text-3xl font-bold hover:underline underline-offset-4 italic ${
+              className={`text-3xl font-bold ${
                 isActive("/projects")
-                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  ? "bg-white text-rose-600 rounded-full p-2"
                   : "text-black hover:text-white"
               }`}
               onClick={handleMenu}
@@ -106,9 +106,9 @@ export default function Navbar() {
             <br />
             <a
               href="/music"
-              className={`text-3xl font-bold hover:underline underline-offset-4 italic ${
+              className={`text-3xl font-bold ${
                 isActive("/music")
-                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  ? "bg-white text-rose-600 rounded-full p-2"
                   : "text-black hover:text-white"
               }`}
               onClick={handleMenu}
@@ -118,9 +118,9 @@ export default function Navbar() {
             <br />
             <a
               href="/resume.pdf"
-              className={`text-3xl font-bold hover:underline underline-offset-4 italic ${
+              className={`text-3xl font-bold ${
                 isActive("/resume.pdf")
-                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  ? "bg-white text-rose-600 rounded-full p-4"
                   : "text-black hover:text-white"
               }`}
               onClick={handleMenu}
@@ -130,9 +130,9 @@ export default function Navbar() {
             <br />
             <a
               href="/contact"
-              className={`text-3xl font-bold hover:underline underline-offset-4 italic ${
+              className={`text-3xl font-bold ${
                 isActive("/contact")
-                  ? "bg-white text-rose-600 rounded-full px-4 py-2"
+                  ? "bg-white text-rose-600 rounded-full p-2"
                   : "text-black hover:text-white"
               }`}
               onClick={handleMenu}
