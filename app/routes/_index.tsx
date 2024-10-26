@@ -10,7 +10,6 @@ import {
 import { TbBrandCpp } from "react-icons/tb";
 import { TbBrandReactNative } from "react-icons/tb";
 import Background from "../components/background";
-import Devcard from "../components/devcard";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Projects from "../components/projects";
@@ -124,14 +123,14 @@ export default function Home() {
 
         <div className="md:hidden">
           <div className="grid grid-rows-3 grid-cols-3 gap-x-20 gap-y-16 md:gap-x-28 md:gap-y-20 justify-between pt-20">
-            <SiJavascript size={50} color="zinc" className="animate-bounce" />
-            <SiTypescript size={50} color="zinc" className="animate-bounce" />
-            <SiPython size={50} color="zinc" className="animate-bounce" />
-            <SiHtml5 size={50} color="zinc" className="animate-bounce" />
-            <SiTailwindcss size={50} color="zinc" className="animate-bounce" />
-            <SiReact size={50} color="zinc" className="animate-bounce" />
-            <SiFigma size={50} color="zinc" className="animate-bounce" />
-            <TbBrandCpp size={50} color="zinc" className="animate-bounce" />
+            <SiJavascript size={50} color="zinc"  />
+            <SiTypescript size={50} color="zinc"  />
+            <SiPython size={50} color="zinc" />
+            <SiHtml5 size={50} color="zinc" />
+            <SiTailwindcss size={50} color="zinc" />
+            <SiReact size={50} color="zinc" />
+            <SiFigma size={50} color="zinc"/>
+            <TbBrandCpp size={50} color="zinc"/>
             <TbBrandReactNative
               size={50}
               color="zinc"
@@ -220,7 +219,7 @@ export default function Home() {
             </h1>
           </div>
           <div className="-animate-circle-loop">
-            <div className="flex justify-between w-full gap-32 2xl:gap-56 ">
+            <div className="flex justify-between w-full gap-32 2xl:gap-72 ">
               <div className="h-20 w-20 md:h-[120px] md:w-[120px] 2xl:h-[7rem] 2xl:w-[7rem] bg-gradient-to-tr from-transparent to-rose-500 transform duration-700 rounded-full relative"></div>
               <div className="h-20 w-20 md:h-[120px] md:w-[120px] 2xl:h-[7rem] 2xl:w-[7rem] bg-gradient-to-tr from-rose-500 to-transparent transform duration-700 rounded-full relative"></div>
             </div>
@@ -247,13 +246,6 @@ export default function Home() {
             heading="TheBridge"
             time="23.06.2024 - today"
             text="TheBridge is a platform that connects people dedicated to making a positive impact and promoting goodwill."
-          />
-          <Projects
-            heading={"NoCluePortfolios"}
-            time={"15.08.2024 - present"}
-            text={
-              "Grab your own personal portfolios and plant your flag on the internet"
-            }
           />
         </div>
       </div>

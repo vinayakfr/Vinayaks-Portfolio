@@ -22,7 +22,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "date-fns": "^3.6.0",
-    "framer-motion": "^11.3.30",
+    "framer-motion": "^11.11.9",
     "isbot": "^4.1.0",
     "lucide-react": "^0.371.0",
     "react": "^18.2.0",

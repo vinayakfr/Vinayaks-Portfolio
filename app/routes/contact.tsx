@@ -14,7 +14,7 @@ export default function Contact() {
           Fill out the form below and I will get in touch with you as soon as
           possible <br />
         </p>
-        <div className="flex flex-col lg:flex-row justify-between w-[90%]">
+        <div className="flex flex-col ">
           <form
             action="https://api.web3forms.com/submit"
             method="POST"
@@ -72,58 +72,6 @@ export default function Contact() {
             </button>
             <p className="text-base text-center text-gray-500" id="result"></p>
           </form>
-          <div className="hidden lg:block">
-            <div className="grid grid-cols-2 grid-rows-1 gap-40">
-              <div className="flex flex-col place-content-center place-items-center h-[40vh] rotate-45 group">
-                {/* Top Wings */}
-                <div className="flex -space-x-8 group-hover:animate-flap">
-                  <div className="bg-rose-500 h-[4.5rem] w-[6.2rem] rounded-tl-[50%] rounded-tr-full rounded-bl-full flex place-content-center place-items-center ">
-                    <div className="bg-white rounded-full h-5 w-5"></div>
-                  </div>
-                  <div className="bg-rose-500 h-[4.5rem] w-[6.2rem] rounded-tl-full rounded-tr-[50%] rounded-br-full flex place-content-center place-items-center">
-                    <div className="bg-white rounded-full h-5 w-5"></div>
-                  </div>
-                </div>
-
-                {/* Center Part */}
-                <div className="bg-rose-300 h-[6px] w-[4rem] rounded-t-[50%] rounded-b-[50%]"></div>
-
-                {/* Bottom Wings */}
-                <div className="flex -space-x-8 group-hover:animate-flap">
-                  <div className="bg-rose-500 h-[4.5rem] w-[6.2rem] rounded-bl-[50%] rounded-br-full rounded-tl-full flex place-content-center place-items-center">
-                    <div className="bg-white rounded-full h-5 w-5"></div>
-                  </div>
-                  <div className="bg-rose-500 h-[4.5rem] w-[6.2rem] rounded-bl-full rounded-br-[50%] rounded-tr-full flex place-content-center place-items-center">
-                    <div className="bg-white rounded-full h-5 w-5"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col place-content-center place-items-center h-[40vh] rotate-45 group mt-40">
-                {/* Top Wings */}
-                <div className="flex -space-x-5 group-hover:animate-flap">
-                  <div className="bg-rose-500 h-[4.5rem] w-[6.2rem] rounded-tl-[50%] rounded-tr-full rounded-bl-full flex place-content-center place-items-center ">
-                    <div className="bg-white rounded-full h-5 w-5"></div>
-                  </div>
-                  <div className="bg-rose-500 h-[4.5rem] w-[6.2rem] rounded-tl-full rounded-tr-[50%] rounded-br-full flex place-content-center place-items-center">
-                    <div className="bg-white rounded-full h-5 w-5"></div>
-                  </div>
-                </div>
-
-                {/* Center Part */}
-                <div className="bg-rose-300 h-[6px] w-[4rem] rounded-t-[50%] rounded-b-[50%]"></div>
-
-                {/* Bottom Wings */}
-                <div className="flex -space-x-5 group-hover:animate-flap">
-                  <div className="bg-rose-500 h-[4.5rem] w-[6.2rem] rounded-bl-[50%] rounded-br-full rounded-tl-full flex place-content-center place-items-center">
-                    <div className="bg-white rounded-full h-5 w-5"></div>
-                  </div>
-                  <div className="bg-rose-500 h-[4.5rem] w-[6.2rem] rounded-bl-full rounded-br-[50%] rounded-tr-full flex place-content-center place-items-center">
-                    <div className="bg-white rounded-full h-5 w-5"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         {/* Wings */}
       </div>
