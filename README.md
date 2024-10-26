@@ -1,36 +1,20 @@
-# Welcome to Remix + Vite!
+# Vinayak Srivastava
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+I’m excited to present my first portfolio website, built using React and TypeScript on the Remix framework. I've made the code public so that everyone can use it as a reference. This is the portfolio encapsulates my initial front-end skills when I started off as a front-end developer.
 
-## Development
+Those who want to see my current portfolio website, please click [here](https://vinayakrefound.vercel.app/)
 
-Run the Vite dev server:
 
-```shellscript
-npm run dev
-```
+## Screenshots
 
-## Deployment
+<img width="1430" alt="Screenshot 2024-10-26 at 9 20 31 PM" src="https://github.com/user-attachments/assets/bd470388-da25-49e5-a408-c0c4e537f721">
 
-First, build your app for production:
+## Do's and Don'ts 
 
-```sh
-npm run build
-```
+- This is not a website template !
 
-Then run the app in production mode:
+- You are not allowed to redistribute or modify the code.
 
-```sh
-npm start
-```
+- This can be used for learning/reference and for GitHub pages
 
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+- This project has no license so In short, the only thing you can safely assume is that you have no rights to do anything at all with this code. In the particular case of GitHub, you can fork the repository and view the code, but nothing more.
